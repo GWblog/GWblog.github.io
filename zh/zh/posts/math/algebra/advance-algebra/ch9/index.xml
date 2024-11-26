@@ -18,7 +18,7 @@
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.3/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.3/</guid>
-      <description>$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间</description>
+      <description>$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵</description>
     </item>
     <item>
       <title>9.2 内积空间与 $Gram$ 矩阵</title>

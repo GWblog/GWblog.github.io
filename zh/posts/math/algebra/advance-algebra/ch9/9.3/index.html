@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>9.3 $Gram-Schmidt$ 正交化方法和正交补空间 | 避风港</title>
 <meta name="keywords" content="$Gram-Schmidt$ 正交化方法和正交补空间">
-<meta name="description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间">
+<meta name="description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.3/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
@@ -56,7 +56,7 @@
 
     </style>
 </noscript><meta property="og:title" content="9.3 $Gram-Schmidt$ 正交化方法和正交补空间" />
-<meta property="og:description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间" />
+<meta property="og:description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.3/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-20T00:00:00+00:00" />
@@ -66,7 +66,7 @@
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
 <meta name="twitter:title" content="9.3 $Gram-Schmidt$ 正交化方法和正交补空间"/>
-<meta name="twitter:description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间"/>
+<meta name="twitter:description" content="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵"/>
 
 
 <script type="application/ld+json">
@@ -107,12 +107,12 @@
   "@type": "BlogPosting",
   "headline": "9.3 $Gram-Schmidt$ 正交化方法和正交补空间",
   "name": "9.3 $Gram-Schmidt$ 正交化方法和正交补空间",
-  "description": "$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间",
+  "description": "$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵",
   "keywords": [
     "$Gram-Schmidt$ 正交化方法和正交补空间"
   ],
-  "articleBody": " $§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 ",
-  "wordCount" : "16",
+  "articleBody": " $§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间 设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵. 特别地，取 $H = I_{n}$ ，则存在 $V$ 的一组基 ${f_{1},f_{2},⋯,f_{n}}$ 使得它的 $Gram$ 矩阵就是单位矩阵 $I_{n}$ ，即 ${f_{1},f_{2},⋯,f_{n}}$ 是 $V$ 的一组标准正交基. 由例题9.3我们也可以具体地构造一组标准正交基，以下不妨设 $V$ 是欧氏空间. 首先，任取 $V$ 的一组基 ${e_{1},e_{2},⋯,e_{n}}$ ，设其 $Gram$ 矩阵为 $G$ ，则 $G$ 是正定实对称矩阵. 其次，通过初等对称变换法可将 $G$ 化为单位矩阵 $I_{n}$ ，则存在 $n$ 阶非异实矩阵 $C = (c_{ij})$ ，使得 $C’GC = I_{n}$ .最后令\n$$ {f_{1},f_{2},⋯,f_{n}} = {e_{1},e_{2},⋯,e_{n}}C $$\n即 $f_{j} = ∑_{i = 1}^{n} c_{ij}e_{i}$ ，则 ${f_{1},f_{2},⋯,f_{n}}$ 是 $V$ 的一组基，并且它的 $Gram$ 矩阵就是 $C’GC = I_{n}$ ，从上述过程不难看出，因为当 $n ≥ 2$ 时，过渡矩阵 $C$ 有无穷多种选法，所以可以构造出无穷多组标准正交基.\n从几何的层面看，上述构造标准正交基的代数方法虽然简单，但是缺少几何直观和意义. 然而，$Gram-Schmidt$ 方法却是一个从几何直观入手向量组的正交化方法，具有重要的几何意义. $Gram-Schmidt$ 方法（公式可参考9.1节），粗略地说就是：如果前 $k-1$ 个向量 $v_{1},v_{2},⋯,v_{k-1}$ 已经两两正交，那么只要将第 $k$ 个向量 $v_{k}$ （这里原书打成了$u_{k}$）减去其在 $v_{1},v_{2},⋯,v_{k-1}$ 上的正交投影，即可得到与 $v_{1},v_{2},⋯,v_{k-1}$ 都正交的向量 $v_{k}$ . 特别地，若 ${u_{1},u_{2},⋯,u_{n}}$ 是欧式空间 $V$ 的一组基，则通过 $Gram-Schmidt$ 方法可得到一组正交基 $v_{1},v_{2},⋯,v_{n}$ ，再将每个基向量标准化即可得到 $V$ 的一组标准正交基 ${w_{1},w_{2},⋯,w_{n}}$ ，这三组基之间的关系为\n$$ {u_{1},u_{2},⋯,u_{n}} = {v_{1},v_{2},⋯,v_{n}}B = {w_{1},w_{2},⋯,w_{n}}C $$ 其中 $B$ 为 主对角元全为 $1$ 的上三角矩阵，$C$ 是主对角元全为正实数的上三角矩阵. 设 $A = G(u_{1},u_{2},⋯,u_{n}), D = G(v_{1},{2},⋯,v{n})$ 分别是对应的 $Gram$ 矩阵，则 $A$ 是正定实对称矩阵，$D$ 是正定对角矩阵，由例题9.3可得 $A$ 的如下分解： $$ A = B’DB = C’C $$ 这就是例 $8.12$ 中关于正定实对称矩阵 $A$ 的两种分解，再由例 $8.12$ 后面的注可知上述两种分解的唯一性. 因此，基 ${v_{1},v_{2},⋯,v_{n}}$ 的 $Gram-Schmidt$ 方法得到的正交基 ${v_{1},v_{2},⋯,v_{n}}$ ，而 $Gram$ 矩阵的 $Cholesky$ 分解 $A = C’C$ 则一一对应于通过 $Gram-Schmidt$ 正交化和标准化得到的标准正交基 ${w_{1},w_{2},⋯,w_{n}}$ .\n除了求标准正交基之外, $Gram-Schmidt$ 方法还有许多其他的应用. 设 $V$ 是内积空间, $u$ 是 $V$ 中的向量，${w_{1},w_{2},⋯,w_{n}}$ 是子空间 $W$ 的一组标准正交基，则由 $Gram-Schmidt$ 方法可知 $v = u - \\mathop{∑}\\limits_{i = 1}^{k} (u,w_{i})w_{i}$ 与 $w_{1},w_{2},⋯,w_{k}$ 正交. 令 $w = ∑_{i = 1}^{k} (u,w_{i})w_{i}$ ，则 $u = v + w$ 且 $(v,w) = 0$ 于是 $||u||^{2} = ||v||^{2} + ||w||^{2}$ ，由此可得\n(1) $Bassel$ 不等式：$||u|| ≥ ||w||^{2} = ∑^{k}{i=1}|(u,w{i})|^{2}$;\n(2) 向量 $u$ 到子空间 $W$ 的距离为 $||v||$ ，即 $\\mathop{\\min}\\limits_{x∈W}||u-x|| = ||v|| $\n我们来看 $Gram-Schmidt$ 正交化方法及其应用的几道典型例题\n9.11 设 $V = \\mathbb{R}[x]{n}$ 为次数小于等于 $n$ 的实系数多项式构成的欧式空间，对任意的 $f(x),g(x)$ ，其内积定义为 $(f(x),g(x)) = ∫{-1}^{1}f(x)g(x)dx$ （参考例题9.1(5) ）. 设 $u_{0}(x) = 1, u_{k}(x) = \\dfrac{d^{k}}{dx^{k}}[(x^2-1)^{k}] (k≥1), m_{k} = ⎷\\dfrac{2^{k+1}k!(2k)!}{(2k+1)!!} (k≥0)$ . 求证：从基 ${1,x,⋯,x^{n}}$ 出发，由 $Gram-Schmidt$ 正交化方法得到的标准正交基为 ${\\dfrac{u_{k}(x)}{m_{k}}, 0≤k≤n}$ 称为 $Legendre$ 多项式\n9.12 设 $V = \\mathbb{R}[x]_{n}$ 为次数小于等于 $3$ 的实系数多项式构成的欧式空间，其内积定义与9.11相同， 试求 $\\mathop{min}\\limits_{f(x)∈V} ∫_{-1}^{1}(e^{x} - f(x))^{2}dx$ .\n列向量组的 $Gram-Schmidt$ 正交化还给出了矩阵的 $QR$ 分解，这可以看作是 $Gram-Schmidt$ 正交化方法的另一个应用\n9.13 设 $A$ 是 $n$ 阶实（复）矩阵，则 $A$ 可分解为 $A = QR$ ，其中 $Q$ 是正交（酉）矩阵，$R$ 是一个主对角元全大于等于零的上三角矩阵，并且若 $A$ 是可逆矩阵，则这样的分解必唯一 例题8.12和8.78的新证法 小老弟，看我手指这是几🖖\n事实上，正定阵的 $Cholesky$ 分解和非异阵的 $QR$ 分解从某种意义上看是等价的. 上面的证明是从非异阵的 $QR$ 分解推出正定阵的 $Cholesky$ 分解. 反之，对任一非异实矩阵 $A$ ，$A’A$ 是正定阵，设 $A’A = R’R$ 是 $Cholesky$ ，其中 $R$ 是主对角元全大于等于零的上三角矩阵. 令 $Q = AR^{-1}$ ，则 $Q’Q = (AR^{-1})’(AR^{-1}) = (R’)^{-1}(A’A)R^{-1} = (R’)^{-1}(R’R)R^{-1} = I_{n}$ 既 $Q$ 是正交矩阵，从而 $A = QR$ 是 $QR$ 分解. 从几何的层面看，上述两种矩阵分解都等价于 $Gram-Schmidt$ 正交化和标准化过程，所以他们之间的等价性是自然的\n在内积空间中使用标准正交基可以简化问题的讨论·\n",
+  "wordCount" : "2107",
   "inLanguage": "zh",
   "datePublished": "2024-10-20T00:00:00Z",
   "dateModified": "2024-10-20T00:00:00Z",
@@ -276,7 +276,7 @@
     <h1 class="post-title entry-hint-parent">
       9.3 $Gram-Schmidt$ 正交化方法和正交补空间
     </h1>
-    <div class="post-meta"><span title='2024-10-20 00:00:00 +0000 UTC'>2024-10-20</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;16 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2024-10-20 00:00:00 +0000 UTC'>2024-10-20</span>&nbsp;·&nbsp;5 分钟&nbsp;·&nbsp;2107 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -288,8 +288,19 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#-93-gram-schmidt-%e6%ad%a3%e4%ba%a4%e5%8c%96%e6%96%b9%e6%b3%95%e5%92%8c%e6%ad%a3%e4%ba%a4%e8%a1%a5%e7%a9%ba%e9%97%b4" aria-label="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间">$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间</a>
+                        <a href="#-93-gram-schmidt-%e6%ad%a3%e4%ba%a4%e5%8c%96%e6%96%b9%e6%b3%95%e5%92%8c%e6%ad%a3%e4%ba%a4%e8%a1%a5%e7%a9%ba%e9%97%b4" aria-label="$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间">$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间</a><ul>
+                            
+                    <li>
+                        <a href="#911-%e8%ae%be-v--mathbbrx_n-%e4%b8%ba%e6%ac%a1%e6%95%b0%e5%b0%8f%e4%ba%8e%e7%ad%89%e4%ba%8e-n-%e7%9a%84%e5%ae%9e%e7%b3%bb%e6%95%b0%e5%a4%9a%e9%a1%b9%e5%bc%8f%e6%9e%84%e6%88%90%e7%9a%84%e6%ac%a7%e5%bc%8f%e7%a9%ba%e9%97%b4%e5%af%b9%e4%bb%bb%e6%84%8f%e7%9a%84-fxgx-%e5%85%b6%e5%86%85%e7%a7%af%e5%ae%9a%e4%b9%89%e4%b8%ba-fxgx--_-11fxgxdx-%e5%8f%82%e8%80%83%e4%be%8b%e9%a2%98915--%e8%ae%be-u_0x--1u_kx--dfracdkdxkx2-1k-k1m_k--dfrac2k1k2k2k1-k0-" aria-label="9.11 设 $V = \mathbb{R}[x]{n}$ 为次数小于等于 $n$ 的实系数多项式构成的欧式空间，对任意的 $f(x),g(x)$ ，其内积定义为 $(f(x),g(x)) = ∫{-1}^{1}f(x)g(x)dx$ （参考例题9.1(5) ）. 设 $u_{0}(x) = 1, u_{k}(x) = \dfrac{d^{k}}{dx^{k}}[(x^2-1)^{k}] (k≥1), m_{k} = ⎷\dfrac{2^{k&#43;1}k!(2k)!}{(2k&#43;1)!!} (k≥0)$ .">9.11 设 $V = \mathbb{R}[x]<em>{n}$ 为次数小于等于 $n$ 的实系数多项式构成的欧式空间，对任意的 $f(x),g(x)$ ，其内积定义为 $(f(x),g(x)) = ∫</em>{-1}^{1}f(x)g(x)dx$ （参考例题9.1(5) ）. 设 $u_{0}(x) = 1, u_{k}(x) = \dfrac{d^{k}}{dx^{k}}[(x^2-1)^{k}] (k≥1), m_{k} = ⎷\dfrac{2^{k+1}k!(2k)!}{(2k+1)!!} (k≥0)$ .</a></li>
+                    <li>
+                        <a href="#912-%e8%ae%be-v--mathbbrx_n-%e4%b8%ba%e6%ac%a1%e6%95%b0%e5%b0%8f%e4%ba%8e%e7%ad%89%e4%ba%8e-3-%e7%9a%84%e5%ae%9e%e7%b3%bb%e6%95%b0%e5%a4%9a%e9%a1%b9%e5%bc%8f%e6%9e%84%e6%88%90%e7%9a%84%e6%ac%a7%e5%bc%8f%e7%a9%ba%e9%97%b4%e5%85%b6%e5%86%85%e7%a7%af%e5%ae%9a%e4%b9%89%e4%b8%8e911%e7%9b%b8%e5%90%8c" aria-label="9.12 设 $V = \mathbb{R}[x]_{n}$ 为次数小于等于 $3$ 的实系数多项式构成的欧式空间，其内积定义与9.11相同，">9.12 设 $V = \mathbb{R}[x]_{n}$ 为次数小于等于 $3$ 的实系数多项式构成的欧式空间，其内积定义与9.11相同，</a></li>
+                    <li>
+                        <a href="#913-%e8%ae%be-a-%e6%98%af-n-%e9%98%b6%e5%ae%9e%e5%a4%8d%e7%9f%a9%e9%98%b5%e5%88%99-a-%e5%8f%af%e5%88%86%e8%a7%a3%e4%b8%ba-a--qr-%e5%85%b6%e4%b8%ad-q-%e6%98%af%e6%ad%a3%e4%ba%a4%e9%85%89%e7%9f%a9%e9%98%b5r-%e6%98%af%e4%b8%80%e4%b8%aa%e4%b8%bb%e5%af%b9%e8%a7%92%e5%85%83%e5%85%a8%e5%a4%a7%e4%ba%8e%e7%ad%89%e4%ba%8e%e9%9b%b6%e7%9a%84%e4%b8%8a%e4%b8%89%e8%a7%92%e7%9f%a9%e9%98%b5%e5%b9%b6%e4%b8%94%e8%8b%a5-a-%e6%98%af%e5%8f%af%e9%80%86%e7%9f%a9%e9%98%b5%e5%88%99%e8%bf%99%e6%a0%b7%e7%9a%84%e5%88%86%e8%a7%a3%e5%bf%85%e5%94%af%e4%b8%80" aria-label="9.13 设 $A$ 是 $n$ 阶实（复）矩阵，则 $A$ 可分解为 $A = QR$ ，其中 $Q$ 是正交（酉）矩阵，$R$ 是一个主对角元全大于等于零的上三角矩阵，并且若 $A$ 是可逆矩阵，则这样的分解必唯一">9.13 设 $A$ 是 $n$ 阶实（复）矩阵，则 $A$ 可分解为 $A = QR$ ，其中 $Q$ 是正交（酉）矩阵，$R$ 是一个主对角元全大于等于零的上三角矩阵，并且若 $A$ 是可逆矩阵，则这样的分解必唯一</a></li>
+                    <li>
+                        <a href="#%e4%be%8b%e9%a2%98812%e5%92%8c878%e7%9a%84%e6%96%b0%e8%af%81%e6%b3%95" aria-label="例题8.12和8.78的新证法">例题8.12和8.78的新证法</a>
                     </li>
+                </ul>
+                </li>
                 </ul>
             </div>
         </details>
@@ -362,6 +373,160 @@
      
 />
 <h2 id="-93-gram-schmidt-正交化方法和正交补空间">$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间<a hidden class="anchor" aria-hidden="true" href="#-93-gram-schmidt-正交化方法和正交补空间">#</a></h2>
+<p>设 $V$ 为 $n$ 维内积空间，则由例题9.4可知，任一 $n$ 阶正定实对称矩阵（正定 $Hermite$ 矩阵）$H$ 都能成为 $V$ 的某组基的 $Gram$ 矩阵. 特别地，取 $H = I_{n}$ ，则存在 $V$ 的一组基 ${f_{1},f_{2},⋯,f_{n}}$ 使得它的 $Gram$ 矩阵就是单位矩阵 $I_{n}$ ，即  ${f_{1},f_{2},⋯,f_{n}}$ 是 $V$ 的一组标准正交基. 由例题9.3我们也可以具体地构造一组标准正交基，以下不妨设 $V$ 是欧氏空间. 首先，任取 $V$ 的一组基 ${e_{1},e_{2},⋯,e_{n}}$ ，设其 $Gram$ 矩阵为 $G$ ，则 $G$ 是正定实对称矩阵. 其次，通过初等对称变换法可将 $G$ 化为单位矩阵 $I_{n}$ ，则存在 $n$ 阶非异实矩阵 $C = (c_{ij})$ ，使得 $C&rsquo;GC = I_{n}$ .最后令</p>
+<p>$$
+{f_{1},f_{2},⋯,f_{n}} = {e_{1},e_{2},⋯,e_{n}}C
+$$</p>
+<p>即 $f_{j} = ∑_{i = 1}^{n} c_{ij}e_{i}$ ，则 ${f_{1},f_{2},⋯,f_{n}}$ 是 $V$ 的一组基，并且它的 $Gram$ 矩阵就是 $C&rsquo;GC = I_{n}$ ，从上述过程不难看出，因为当 $n ≥ 2$ 时，过渡矩阵 $C$ 有无穷多种选法，所以可以构造出无穷多组标准正交基.</p>
+<p>从几何的层面看，上述构造标准正交基的代数方法虽然简单，但是缺少几何直观和意义. 然而，$Gram-Schmidt$ 方法却是一个从几何直观入手向量组的正交化方法，具有重要的几何意义.  $Gram-Schmidt$ 方法（公式可参考9.1节），粗略地说就是：如果前 $k-1$ 个向量 $v_{1},v_{2},⋯,v_{k-1}$ 已经两两正交，那么只要将第 $k$ 个向量 $v_{k}$ （这里原书打成了$u_{k}$）减去其在 $v_{1},v_{2},⋯,v_{k-1}$ 上的正交投影，即可得到与 $v_{1},v_{2},⋯,v_{k-1}$ 都正交的向量 $v_{k}$ . 特别地，若 ${u_{1},u_{2},⋯,u_{n}}$ 是欧式空间 $V$ 的一组基，则通过 $Gram-Schmidt$ 方法可得到一组正交基 $v_{1},v_{2},⋯,v_{n}$ ，再将每个基向量标准化即可得到 $V$ 的一组标准正交基 ${w_{1},w_{2},⋯,w_{n}}$ ，这三组基之间的关系为</p>
+<p>$$
+{u_{1},u_{2},⋯,u_{n}} = {v_{1},v_{2},⋯,v_{n}}B = {w_{1},w_{2},⋯,w_{n}}C
+$$
+其中 $B$ 为 主对角元全为 $1$ 的上三角矩阵，$C$ 是主对角元全为正实数的上三角矩阵.
+设 $A = G(u_{1},u_{2},⋯,u_{n}), D = G(v_{1},<em>{2},⋯,v</em>{n})$ 分别是对应的 $Gram$ 矩阵，则 $A$ 是正定实对称矩阵，$D$ 是正定对角矩阵，由例题9.3可得 $A$ 的如下分解：
+$$
+A = B&rsquo;DB = C&rsquo;C
+$$
+这就是例 $8.12$ 中关于正定实对称矩阵 $A$ 的两种分解，再由例 $8.12$ 后面的注可知上述两种分解的唯一性. 因此，基 ${v_{1},v_{2},⋯,v_{n}}$ 的 $Gram-Schmidt$ 方法得到的正交基 ${v_{1},v_{2},⋯,v_{n}}$ ，而 $Gram$ 矩阵的 $Cholesky$ 分解 $A = C&rsquo;C$ 则一一对应于通过 $Gram-Schmidt$ 正交化和标准化得到的标准正交基 ${w_{1},w_{2},⋯,w_{n}}$ .</p>
+<p>除了求标准正交基之外, $Gram-Schmidt$ 方法还有许多其他的应用. 设 $V$ 是内积空间, $u$ 是 $V$ 中的向量，${w_{1},w_{2},⋯,w_{n}}$ 是子空间 $W$ 的一组标准正交基，则由 $Gram-Schmidt$ 方法可知 $v = u - \mathop{∑}\limits_{i = 1}^{k} (u,w_{i})w_{i}$ 与 $w_{1},w_{2},⋯,w_{k}$ 正交. 令 $w = ∑_{i = 1}^{k} (u,w_{i})w_{i}$ ，则 $u = v + w$ 且 $(v,w) = 0$ 于是 $||u||^{2} = ||v||^{2} + ||w||^{2}$ ，由此可得</p>
+<p>(1) $Bassel$ 不等式：$||u|| ≥ ||w||^{2} = ∑^{k}<em>{i=1}|(u,w</em>{i})|^{2}$;</p>
+<p>(2) 向量 $u$ 到子空间 $W$ 的距离为 $||v||$ ，即 $\mathop{\min}\limits_{x∈W}||u-x|| = ||v|| $</p>
+<hr>
+<p>我们来看 $Gram-Schmidt$ 正交化方法及其应用的几道典型例题</p>
+<h3 id="911-设-v--mathbbrx_n-为次数小于等于-n-的实系数多项式构成的欧式空间对任意的-fxgx-其内积定义为-fxgx--_-11fxgxdx-参考例题915--设-u_0x--1u_kx--dfracdkdxkx2-1k-k1m_k--dfrac2k1k2k2k1-k0-">9.11 设 $V = \mathbb{R}[x]<em>{n}$ 为次数小于等于 $n$ 的实系数多项式构成的欧式空间，对任意的 $f(x),g(x)$ ，其内积定义为 $(f(x),g(x)) = ∫</em>{-1}^{1}f(x)g(x)dx$ （参考例题9.1(5) ）. 设 $u_{0}(x) = 1, u_{k}(x) = \dfrac{d^{k}}{dx^{k}}[(x^2-1)^{k}] (k≥1), m_{k} = ⎷\dfrac{2^{k+1}k!(2k)!}{(2k+1)!!} (k≥0)$ .<a hidden class="anchor" aria-hidden="true" href="#911-设-v--mathbbrx_n-为次数小于等于-n-的实系数多项式构成的欧式空间对任意的-fxgx-其内积定义为-fxgx--_-11fxgxdx-参考例题915--设-u_0x--1u_kx--dfracdkdxkx2-1k-k1m_k--dfrac2k1k2k2k1-k0-">#</a></h3>
+<p>求证：从基 ${1,x,⋯,x^{n}}$ 出发，由 $Gram-Schmidt$ 正交化方法得到的标准正交基为 ${\dfrac{u_{k}(x)}{m_{k}}, 0≤k≤n}$ 称为 $Legendre$ 多项式</p>
+<h3 id="912-设-v--mathbbrx_n-为次数小于等于-3-的实系数多项式构成的欧式空间其内积定义与911相同">9.12 设 $V = \mathbb{R}[x]_{n}$ 为次数小于等于 $3$ 的实系数多项式构成的欧式空间，其内积定义与9.11相同，<a hidden class="anchor" aria-hidden="true" href="#912-设-v--mathbbrx_n-为次数小于等于-3-的实系数多项式构成的欧式空间其内积定义与911相同">#</a></h3>
+<p>试求 $\mathop{min}\limits_{f(x)∈V} ∫_{-1}^{1}(e^{x} - f(x))^{2}dx$ .</p>
+<hr>
+<p>列向量组的 $Gram-Schmidt$ 正交化还给出了矩阵的 $QR$ 分解，这可以看作是 $Gram-Schmidt$ 正交化方法的另一个应用</p>
+<h3 id="913-设-a-是-n-阶实复矩阵则-a-可分解为-a--qr-其中-q-是正交酉矩阵r-是一个主对角元全大于等于零的上三角矩阵并且若-a-是可逆矩阵则这样的分解必唯一">9.13 设 $A$ 是 $n$ 阶实（复）矩阵，则 $A$ 可分解为 $A = QR$ ，其中 $Q$ 是正交（酉）矩阵，$R$ 是一个主对角元全大于等于零的上三角矩阵，并且若 $A$ 是可逆矩阵，则这样的分解必唯一<a hidden class="anchor" aria-hidden="true" href="#913-设-a-是-n-阶实复矩阵则-a-可分解为-a--qr-其中-q-是正交酉矩阵r-是一个主对角元全大于等于零的上三角矩阵并且若-a-是可逆矩阵则这样的分解必唯一">#</a></h3>
+<h3 id="例题812和878的新证法">例题8.12和8.78的新证法<a hidden class="anchor" aria-hidden="true" href="#例题812和878的新证法">#</a></h3>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>事实上，正定阵的 $Cholesky$ 分解和非异阵的 $QR$ 分解从某种意义上看是等价的. 上面的证明是从非异阵的 $QR$ 分解推出正定阵的 $Cholesky$ 分解. 反之，对任一非异实矩阵 $A$ ，$A&rsquo;A$ 是正定阵，设 $A&rsquo;A = R&rsquo;R$ 是 $Cholesky$ ，其中 $R$ 是主对角元全大于等于零的上三角矩阵. 令 $Q = AR^{-1}$ ，则 $Q&rsquo;Q = (AR^{-1})&rsquo;(AR^{-1}) = (R&rsquo;)^{-1}(A&rsquo;A)R^{-1} = (R&rsquo;)^{-1}(R&rsquo;R)R^{-1} = I_{n}$ 既 $Q$ 是正交矩阵，从而 $A = QR$ 是 $QR$ 分解. 从几何的层面看，上述两种矩阵分解都等价于 $Gram-Schmidt$ 正交化和标准化过程，所以他们之间的等价性是自然的</p></div>
+<p>在内积空间中使用标准正交基可以简化问题的讨论·</p>
 
 
   </div>
