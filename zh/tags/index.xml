@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>伴随</title>
+      <link>https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F/</guid>
+      <description></description>
+    </item>
     <item>
       <title>$Gram-Schmidt$ 正交化方法和正交补空间</title>
       <link>https://GWblog.github.io/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/</link>

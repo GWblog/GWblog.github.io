@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>伴随 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F/</link>
+    <description>Recent content in 伴随 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.3 伴 随</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.4/</guid>
+      <description>$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一</description>
+    </item>
+    <item>
+      <title>9.3 伴 随</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</guid>
+      <description>$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一</description>
+    </item>
+  </channel>
+</rss>
