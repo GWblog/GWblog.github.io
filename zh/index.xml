@@ -45,14 +45,14 @@ A funny guy</description>
 A funny guy</description>
     </item>
     <item>
-      <title>9.3 伴 随</title>
+      <title>9.4 伴 随</title>
       <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.4/</guid>
       <description>$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一</description>
     </item>
     <item>
-      <title>9.3 伴 随</title>
+      <title>9.4 伴 随</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</guid>
@@ -883,6 +883,20 @@ A funny guy</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.2/</guid>
       <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
+    </item>
+    <item>
+      <title>9.5 保积同构、正交变换和正交矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.5/</guid>
+      <description>$§$ 9.5 保积同构、正交变换和正交矩阵 设 $φ: V → U$ 是内积空间之间的线性同构，若 $φ$ 保持内积，则称为保积同构. 若两个线性空间之间存在线性同构</description>
+    </item>
+    <item>
+      <title>9.5 保积同构、正交变换和正交矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</guid>
+      <description>$§$ 9.5 保积同构、正交变换和正交矩阵 设 $φ: V → U$ 是内积空间之间的线性同构，若 $φ$ 保持内积，则称为保积同构. 若两个线性空间之间存在线性同构</description>
     </item>
     <item>
       <title>test</title>

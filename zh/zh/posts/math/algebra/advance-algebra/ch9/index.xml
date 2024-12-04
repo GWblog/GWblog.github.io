@@ -14,7 +14,7 @@
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>9.3 伴 随</title>
+      <title>9.4 伴 随</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</guid>
@@ -33,6 +33,13 @@
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.2/</guid>
       <description>$§$ 9.2 内积空间与 $Gram$ 矩阵 如果实线性空间（或复线性空间） $V$ 上附加了一个满足对称性（或共轭对称性）、第一变量的线性以及正定性的二元计算(-,-)</description>
+    </item>
+    <item>
+      <title>9.5 保积同构、正交变换和正交矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</guid>
+      <description>$§$ 9.5 保积同构、正交变换和正交矩阵 设 $φ: V → U$ 是内积空间之间的线性同构，若 $φ$ 保持内积，则称为保积同构. 若两个线性空间之间存在线性同构</description>
     </item>
   </channel>
 </rss>

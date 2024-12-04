@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>保积同构、正交变换和正交矩阵 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E4%BF%9D%E7%A7%AF%E5%90%8C%E6%9E%84%E6%AD%A3%E4%BA%A4%E5%8F%98%E6%8D%A2%E5%92%8C%E6%AD%A3%E4%BA%A4%E7%9F%A9%E9%98%B5/</link>
+    <description>Recent content in 保积同构、正交变换和正交矩阵 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E4%BF%9D%E7%A7%AF%E5%90%8C%E6%9E%84%E6%AD%A3%E4%BA%A4%E5%8F%98%E6%8D%A2%E5%92%8C%E6%AD%A3%E4%BA%A4%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.5 保积同构、正交变换和正交矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.5/</guid>
+      <description>$§$ 9.5 保积同构、正交变换和正交矩阵 设 $φ: V → U$ 是内积空间之间的线性同构，若 $φ$ 保持内积，则称为保积同构. 若两个线性空间之间存在线性同构</description>
+    </item>
+    <item>
+      <title>9.5 保积同构、正交变换和正交矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.5/</guid>
+      <description>$§$ 9.5 保积同构、正交变换和正交矩阵 设 $φ: V → U$ 是内积空间之间的线性同构，若 $φ$ 保持内积，则称为保积同构. 若两个线性空间之间存在线性同构</description>
+    </item>
+  </channel>
+</rss>

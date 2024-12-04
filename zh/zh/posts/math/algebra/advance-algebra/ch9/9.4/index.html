@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>9.3 伴 随 | 避风港</title>
+<title>9.4 伴 随 | 避风港</title>
 <meta name="keywords" content="伴随">
 <meta name="description" content="$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一">
 <meta name="author" content="G.W">
@@ -55,7 +55,7 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="9.3 伴 随" />
+</noscript><meta property="og:title" content="9.4 伴 随" />
 <meta property="og:description" content="$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="article:section" content="zh" />
@@ -65,7 +65,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="9.3 伴 随"/>
+<meta name="twitter:title" content="9.4 伴 随"/>
 <meta name="twitter:description" content="$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一"/>
 
 
@@ -95,7 +95,7 @@
     {
       "@type": "ListItem",
       "position":  6 ,
-      "name": "9.3 伴 随",
+      "name": "9.4 伴 随",
       "item": "https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/"
     }
   ]
@@ -105,14 +105,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "9.3 伴 随",
-  "name": "9.3 伴 随",
+  "headline": "9.4 伴 随",
+  "name": "9.4 伴 随",
   "description": "$§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一",
   "keywords": [
     "伴随"
   ],
-  "articleBody": " $§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一组标准正交基下的表示矩阵为 $A$ ，则其伴随 $φ^{*}$ 在同一组标准正交基下的表示矩阵为 $A’$ （欧氏空间）或 $\\overline{A}’$ （酉空间）. 这使得我们能用矩阵来讨论有关问题，例9.23、例9.24和例9.25 就是非常典型的例子. 例9.28 是正规算子及其伴随的基本性质，他在后面有着重要用途\n",
-  "wordCount" : "201",
+  "articleBody": " $§$ 9.4 伴 随 伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一组标准正交基下的表示矩阵为 $A$ ，则其伴随 $φ^{*}$ 在同一组标准正交基下的表示矩阵为 $A’$ （欧氏空间）或 $\\overline{A}’$ （酉空间）. 这使得我们能用矩阵来讨论有关问题，例9.23、例9.24和例9.25 就是非常典型的例子. 例9.28 是正规算子及其伴随的基本性质，他在后面有着重要用途\n9.23 设 $V$ 是有限维内积空间，$φ,ψ$ 是 $V$ 上的线性变换，$c$ 是常数，求证： （1）$(φ + ψ) = φ^{} + ψ^{}$; （2）$(cψ)^{} = \\overline{c}φ^{} $; （3）$(φ ψ)^{} = φ^{} ψ^{}$; （4）$(φ)^{} = φ$;\n（5）若 $φ$ 可逆，则 $φ^{}$ 也可逆，此时 $((φ)^{})^{-1} = (φ^{-1})^{*}$.\n9.24 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，求证：若 $φ$ 的全体特征值为 $λ_{1},λ_{2},⋯,λ_{n}$ ，则 $φ^{*}$ 的全体特征值为 $\\overline{λ_{1}},\\overline{λ_{2}},⋯,\\overline{λ_{n}}$ 9.25 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，$φ$ 的极小多项式为 $g(x)$ ，证明：$φ^{*}$ 的极小多项式为 $\\overline{g}(x)$ ，这里 $\\overline{g}(x)$ 的系数等于 $g(x)$ 系数的共轭 下面的例题能提供处理内积空间中的相关问题的归纳基础\n9.26 设 $φ$ 是内积空间 $V$ 上的线性变换，若 $U$ 是 $φ$ 的不变子空间，求证：$U^{⟂}$ 是 $φ^{*}$ 的不变子空间 9.27 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$\\text{Im} φ^{*} = (\\text{Ker} φ)^{⟂}$ 9.28 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$α$ 是 $φ$ 的属于特征值 $λ$ 的特征向量的充要条件是 $α$ 是 $φ^{*}$ 的属于特征值 $\\overline{λ}$ 的特征向量. 下面我们来看几个求伴随算子的具体例子.\n9.29 设 $V$ 是由 $n$ 阶实矩阵全体构成的欧氏空间（取 $Frobenius$ 内积），$V$ 上的线性变换 $φ$ 定义为 $φ(A) = PAQ$ ，其中 $P、Q ∈ V$ （1）求 $φ$ 的伴随 $φ^{*}$;\n（2）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是正交算子的充要条件是 $P’P = cI_{n}$ ，$QQ’ = c^{-1}I_{n}$ ，其中 $c$ 是正实数；\n（3）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是自伴随算子的充要条件是 $P’ = ±P$ ，$Q’ = ±Q$ ；\n（4）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是正规算子的充要条件是 $P,Q$ 都是正规矩阵\n第二章解答题 $15$ 设 $A = (a_{ij})$ 为 $n$ 阶方阵，定义函数 $f(A) = \\mathop{∑}\\limits_{i,j=1}^{n}a_{ij}^{2}$ . 设 $P$ 为 $n$ 阶可逆矩阵，使得对任意的 $n$ 阶方阵 $A$ 成立：$f(PAP^{-1}) = f(A)$ . 证明：存在非零常数 $c$ ，使得 $P’P = cI_{n}$\n9.30 设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积） （1）求出 $V$ 的一组标准正交基；\n（2）设 $T$ 是一个 $n$ 阶实矩阵，$V$ 上的线性变换 $φ$ 定义为 $φ(A) = T’AT$，求证：$φ$ 是自伴随算子的充要条件是 $T$ 为对称矩阵或反对称矩阵\n有限维内积空间上的线性算子比存在伴随算子，然而下面的例题告诉我们，无限维空间上的线性算子的伴随算子可能不存在. 这一事实也反映了有限维内积空间与无限维内积空间的区别\n9.31 设 $U = \\mathbb{R}[x]$ ，取例 9.1（6）中的内积. 任取 $f(x),g(x) ∈ U$ ，若设某些系数为零，则可能将它们都写成统一的形式：$f(x) = a_{0} + a_{1}x + ⋯ + a_{n}x^{n}, g(x) = b_{0} + b_{1}x + ⋯ + b_{n}x^{n}$ （1）线性变换 $φ$ 定义为 $φ(f(x)) = a_{1} + a_{2}x + ⋯ + a_{n}x^{n-1}$ ，试求 $φ$ 的伴随；\n（2）线性变换 $φ$ 定义为 $φ(f(x)) = a_{0} + a_{1}(1+x) + a_{2}(1+x+x^{2}) + ⋯ + a_{n}(\\mathop{∑}\\limits_{i=0}^{n}x^{i})$ ，求证： $φ$ 的伴随不存在；\n",
+  "wordCount" : "1567",
   "inLanguage": "zh",
   "datePublished": "2024-11-20T00:00:00Z",
   "dateModified": "2024-11-20T00:00:00Z",
@@ -274,9 +274,9 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      9.3 伴 随
+      9.4 伴 随
     </h1>
-    <div class="post-meta"><span title='2024-11-20 00:00:00 +0000 UTC'>2024-11-20</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;201 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2024-11-20 00:00:00 +0000 UTC'>2024-11-20</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1567 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -288,8 +288,31 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#-94-%e4%bc%b4-%e9%9a%8f" aria-label="$§$ 9.4 伴 随">$§$ 9.4 伴 随</a>
+                        <a href="#-94-%e4%bc%b4-%e9%9a%8f" aria-label="$§$ 9.4 伴 随">$§$ 9.4 伴 随</a><ul>
+                            
+                    <li>
+                        <a href="#923-%e8%ae%be-v-%e6%98%af%e6%9c%89%e9%99%90%e7%bb%b4%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4%cf%86%cf%88-%e6%98%af-v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2c-%e6%98%af%e5%b8%b8%e6%95%b0%e6%b1%82%e8%af%81" aria-label="9.23 设 $V$ 是有限维内积空间，$φ,ψ$ 是 $V$ 上的线性变换，$c$ 是常数，求证：">9.23 设 $V$ 是有限维内积空间，$φ,ψ$ 是 $V$ 上的线性变换，$c$ 是常数，求证：</a></li>
+                    <li>
+                        <a href="#924-%e8%ae%be-%cf%86-%e6%98%af%e6%9c%89%e9%99%90%e7%bb%b4%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4-v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2%e6%b1%82%e8%af%81%e8%8b%a5-%cf%86-%e7%9a%84%e5%85%a8%e4%bd%93%e7%89%b9%e5%be%81%e5%80%bc%e4%b8%ba-%ce%bb_1%ce%bb_2%ce%bb_n-%e5%88%99-%cf%86-%e7%9a%84%e5%85%a8%e4%bd%93%e7%89%b9%e5%be%81%e5%80%bc%e4%b8%ba-overline%ce%bb_1overline%ce%bb_2overline%ce%bb_n" aria-label="9.24 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，求证：若 $φ$ 的全体特征值为 $λ_{1},λ_{2},⋯,λ_{n}$ ，则 $φ^{*}$ 的全体特征值为 $\overline{λ_{1}},\overline{λ_{2}},⋯,\overline{λ_{n}}$">9.24 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，求证：若 $φ$ 的全体特征值为 $λ_{1},λ_{2},⋯,λ_{n}$ ，则 $φ^{*}$ 的全体特征值为 $\overline{λ_{1}},\overline{λ_{2}},⋯,\overline{λ_{n}}$</a></li>
+                    <li>
+                        <a href="#925-%e8%ae%be-%cf%86-%e6%98%af%e6%9c%89%e9%99%90%e7%bb%b4%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4-v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2%cf%86-%e7%9a%84%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%ba-gx-%e8%af%81%e6%98%8e%cf%86-%e7%9a%84%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%ba-overlinegx-%e8%bf%99%e9%87%8c-overlinegx-%e7%9a%84%e7%b3%bb%e6%95%b0%e7%ad%89%e4%ba%8e-gx-%e7%b3%bb%e6%95%b0%e7%9a%84%e5%85%b1%e8%bd%ad" aria-label="9.25 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，$φ$ 的极小多项式为 $g(x)$ ，证明：$φ^{*}$ 的极小多项式为 $\overline{g}(x)$ ，这里 $\overline{g}(x)$ 的系数等于 $g(x)$ 系数的共轭">9.25 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，$φ$ 的极小多项式为 $g(x)$ ，证明：$φ^{*}$ 的极小多项式为 $\overline{g}(x)$ ，这里 $\overline{g}(x)$ 的系数等于 $g(x)$ 系数的共轭</a></li>
+                    <li>
+                        <a href="#926-%e8%ae%be-%cf%86-%e6%98%af%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4-v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2%e8%8b%a5-u-%e6%98%af-%cf%86-%e7%9a%84%e4%b8%8d%e5%8f%98%e5%ad%90%e7%a9%ba%e9%97%b4%e6%b1%82%e8%af%81u-%e6%98%af-%cf%86-%e7%9a%84%e4%b8%8d%e5%8f%98%e5%ad%90%e7%a9%ba%e9%97%b4" aria-label="9.26 设 $φ$ 是内积空间 $V$ 上的线性变换，若 $U$ 是 $φ$ 的不变子空间，求证：$U^{⟂}$ 是 $φ^{*}$ 的不变子空间">9.26 设 $φ$ 是内积空间 $V$ 上的线性变换，若 $U$ 是 $φ$ 的不变子空间，求证：$U^{⟂}$ 是 $φ^{*}$ 的不变子空间</a></li>
+                    <li>
+                        <a href="#927-%e8%ae%be-v-%e6%98%af-n-%e7%bb%b4%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4%cf%86-%e6%98%af-v-%e4%b8%8a%e7%9a%84%e6%ad%a3%e8%a7%84%e7%ae%97%e5%ad%90%ce%b1-%e6%98%af-v-%e4%b8%ad%e7%9a%84%e9%9d%9e%e9%9b%b6%e5%90%91%e9%87%8f%e6%b1%82%e8%af%81textim-%cf%86--textker-%cf%86" aria-label="9.27 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$\text{Im} φ^{*} = (\text{Ker} φ)^{⟂}$">9.27 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$\text{Im} φ^{*} = (\text{Ker} φ)^{⟂}$</a></li>
+                    <li>
+                        <a href="#928-%e8%ae%be-v-%e6%98%af-n-%e7%bb%b4%e5%86%85%e7%a7%af%e7%a9%ba%e9%97%b4%cf%86-%e6%98%af-v-%e4%b8%8a%e7%9a%84%e6%ad%a3%e8%a7%84%e7%ae%97%e5%ad%90%ce%b1-%e6%98%af-v-%e4%b8%ad%e7%9a%84%e9%9d%9e%e9%9b%b6%e5%90%91%e9%87%8f%e6%b1%82%e8%af%81%ce%b1-%e6%98%af-%cf%86-%e7%9a%84%e5%b1%9e%e4%ba%8e%e7%89%b9%e5%be%81%e5%80%bc-%ce%bb-%e7%9a%84%e7%89%b9%e5%be%81%e5%90%91%e9%87%8f%e7%9a%84%e5%85%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%af-%ce%b1-%e6%98%af-%cf%86-%e7%9a%84%e5%b1%9e%e4%ba%8e%e7%89%b9%e5%be%81%e5%80%bc-overline%ce%bb-%e7%9a%84%e7%89%b9%e5%be%81%e5%90%91%e9%87%8f" aria-label="9.28 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$α$ 是 $φ$ 的属于特征值 $λ$ 的特征向量的充要条件是 $α$ 是 $φ^{*}$ 的属于特征值 $\overline{λ}$ 的特征向量.">9.28 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$α$ 是 $φ$ 的属于特征值 $λ$ 的特征向量的充要条件是 $α$ 是 $φ^{*}$ 的属于特征值 $\overline{λ}$ 的特征向量.</a></li>
+                    <li>
+                        <a href="#929-%e8%ae%be-v-%e6%98%af%e7%94%b1-n-%e9%98%b6%e5%ae%9e%e7%9f%a9%e9%98%b5%e5%85%a8%e4%bd%93%e6%9e%84%e6%88%90%e7%9a%84%e6%ac%a7%e6%b0%8f%e7%a9%ba%e9%97%b4%e5%8f%96-frobenius-%e5%86%85%e7%a7%afv-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2-%cf%86-%e5%ae%9a%e4%b9%89%e4%b8%ba-%cf%86a--paq-%e5%85%b6%e4%b8%ad-pq--v" aria-label="9.29 设 $V$ 是由 $n$ 阶实矩阵全体构成的欧氏空间（取 $Frobenius$ 内积），$V$ 上的线性变换 $φ$ 定义为 $φ(A) = PAQ$ ，其中 $P、Q ∈ V$">9.29 设 $V$ 是由 $n$ 阶实矩阵全体构成的欧氏空间（取 $Frobenius$ 内积），$V$ 上的线性变换 $φ$ 定义为 $φ(A) = PAQ$ ，其中 $P、Q ∈ V$</a></li>
+                    <li>
+                        <a href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e8%a7%a3%e7%ad%94%e9%a2%98-15" aria-label="第二章解答题 $15$">第二章解答题 $15$</a></li>
+                    <li>
+                        <a href="#930-%e8%ae%be-v-%e6%98%af-n-%e9%98%b6%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%9e%84%e6%88%90%e7%9a%84%e6%ac%a7%e6%b0%8f%e7%a9%ba%e9%97%b4%e5%8f%96-frobenius-%e5%86%85%e7%a7%af" aria-label="9.30 设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积）">9.30 设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积）</a></li>
+                    <li>
+                        <a href="#931-%e8%ae%be-u--mathbbrx-%e5%8f%96%e4%be%8b-916%e4%b8%ad%e7%9a%84%e5%86%85%e7%a7%af-%e4%bb%bb%e5%8f%96-fxgx--u-%e8%8b%a5%e8%ae%be%e6%9f%90%e4%ba%9b%e7%b3%bb%e6%95%b0%e4%b8%ba%e9%9b%b6%e5%88%99%e5%8f%af%e8%83%bd%e5%b0%86%e5%ae%83%e4%bb%ac%e9%83%bd%e5%86%99%e6%88%90%e7%bb%9f%e4%b8%80%e7%9a%84%e5%bd%a2%e5%bc%8ffx--a_0--a_1x----a_nxngx--b_0--b_1x----b_nxn" aria-label="9.31 设 $U = \mathbb{R}[x]$ ，取例 9.1（6）中的内积. 任取 $f(x),g(x) ∈ U$ ，若设某些系数为零，则可能将它们都写成统一的形式：$f(x) = a_{0} &#43; a_{1}x &#43; ⋯ &#43; a_{n}x^{n}, g(x) = b_{0} &#43; b_{1}x &#43; ⋯ &#43; b_{n}x^{n}$">9.31 设 $U = \mathbb{R}[x]$ ，取例 9.1（6）中的内积. 任取 $f(x),g(x) ∈ U$ ，若设某些系数为零，则可能将它们都写成统一的形式：$f(x) = a_{0} + a_{1}x + ⋯ + a_{n}x^{n}, g(x) = b_{0} + b_{1}x + ⋯ + b_{n}x^{n}$</a>
                     </li>
+                </ul>
+                </li>
                 </ul>
             </div>
         </details>
@@ -363,6 +386,37 @@
 />
 <h2 id="-94-伴-随">$§$ 9.4 伴 随<a hidden class="anchor" aria-hidden="true" href="#-94-伴-随">#</a></h2>
 <p>伴随是内积空间理论中最重要的概念之一. 在处理有关伴随的问题时，除了运用直接验证法以外，也常常运用矩阵方法. 如果线性变换 $φ$ 在一组标准正交基下的表示矩阵为 $A$ ，则其伴随 $φ^{*}$ 在同一组标准正交基下的表示矩阵为 $A&rsquo;$ （欧氏空间）或 $\overline{A}&rsquo;$ （酉空间）. 这使得我们能用矩阵来讨论有关问题，例9.23、例9.24和例9.25 就是非常典型的例子. 例9.28 是正规算子及其伴随的基本性质，他在后面有着重要用途</p>
+<hr>
+<h3 id="923-设-v-是有限维内积空间φψ-是-v-上的线性变换c-是常数求证">9.23 设 $V$ 是有限维内积空间，$φ,ψ$ 是 $V$ 上的线性变换，$c$ 是常数，求证：<a hidden class="anchor" aria-hidden="true" href="#923-设-v-是有限维内积空间φψ-是-v-上的线性变换c-是常数求证">#</a></h3>
+<p>（1）$(φ + ψ) = φ^{<em>} + ψ^{</em>}$;
+（2）$(cψ)^{<em>} = \overline{c}φ^{</em>} $;
+（3）$(φ  ψ)^{<em>} = φ^{</em>}  ψ^{<em>}$;
+（4）$(φ)^{</em>} = φ$;</p>
+<p>（5）若 $φ$ 可逆，则 $φ^{<em>}$ 也可逆，此时 $((φ)^{</em>})^{-1} = (φ^{-1})^{*}$.</p>
+<h3 id="924-设-φ-是有限维内积空间-v-上的线性变换求证若-φ-的全体特征值为-λ_1λ_2λ_n-则-φ-的全体特征值为-overlineλ_1overlineλ_2overlineλ_n">9.24 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，求证：若 $φ$ 的全体特征值为 $λ_{1},λ_{2},⋯,λ_{n}$ ，则 $φ^{*}$ 的全体特征值为 $\overline{λ_{1}},\overline{λ_{2}},⋯,\overline{λ_{n}}$<a hidden class="anchor" aria-hidden="true" href="#924-设-φ-是有限维内积空间-v-上的线性变换求证若-φ-的全体特征值为-λ_1λ_2λ_n-则-φ-的全体特征值为-overlineλ_1overlineλ_2overlineλ_n">#</a></h3>
+<h3 id="925-设-φ-是有限维内积空间-v-上的线性变换φ-的极小多项式为-gx-证明φ-的极小多项式为-overlinegx-这里-overlinegx-的系数等于-gx-系数的共轭">9.25 设 $φ$ 是有限维内积空间 $V$ 上的线性变换，$φ$ 的极小多项式为 $g(x)$ ，证明：$φ^{*}$ 的极小多项式为 $\overline{g}(x)$ ，这里 $\overline{g}(x)$ 的系数等于 $g(x)$ 系数的共轭<a hidden class="anchor" aria-hidden="true" href="#925-设-φ-是有限维内积空间-v-上的线性变换φ-的极小多项式为-gx-证明φ-的极小多项式为-overlinegx-这里-overlinegx-的系数等于-gx-系数的共轭">#</a></h3>
+<hr>
+<p>下面的例题能提供处理内积空间中的相关问题的归纳基础</p>
+<h3 id="926-设-φ-是内积空间-v-上的线性变换若-u-是-φ-的不变子空间求证u-是-φ-的不变子空间">9.26 设 $φ$ 是内积空间 $V$ 上的线性变换，若 $U$ 是 $φ$ 的不变子空间，求证：$U^{⟂}$ 是 $φ^{*}$ 的不变子空间<a hidden class="anchor" aria-hidden="true" href="#926-设-φ-是内积空间-v-上的线性变换若-u-是-φ-的不变子空间求证u-是-φ-的不变子空间">#</a></h3>
+<h3 id="927-设-v-是-n-维内积空间φ-是-v-上的正规算子α-是-v-中的非零向量求证textim-φ--textker-φ">9.27 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$\text{Im} φ^{*} = (\text{Ker} φ)^{⟂}$<a hidden class="anchor" aria-hidden="true" href="#927-设-v-是-n-维内积空间φ-是-v-上的正规算子α-是-v-中的非零向量求证textim-φ--textker-φ">#</a></h3>
+<h3 id="928-设-v-是-n-维内积空间φ-是-v-上的正规算子α-是-v-中的非零向量求证α-是-φ-的属于特征值-λ-的特征向量的充要条件是-α-是-φ-的属于特征值-overlineλ-的特征向量">9.28 设 $V$ 是 $n$ 维内积空间，$φ$ 是 $V$ 上的正规算子，$α$ 是 $V$ 中的非零向量，求证：$α$ 是 $φ$ 的属于特征值 $λ$ 的特征向量的充要条件是 $α$ 是 $φ^{*}$ 的属于特征值 $\overline{λ}$ 的特征向量.<a hidden class="anchor" aria-hidden="true" href="#928-设-v-是-n-维内积空间φ-是-v-上的正规算子α-是-v-中的非零向量求证α-是-φ-的属于特征值-λ-的特征向量的充要条件是-α-是-φ-的属于特征值-overlineλ-的特征向量">#</a></h3>
+<hr>
+<p>下面我们来看几个求伴随算子的具体例子.</p>
+<h3 id="929-设-v-是由-n-阶实矩阵全体构成的欧氏空间取-frobenius-内积v-上的线性变换-φ-定义为-φa--paq-其中-pq--v">9.29 设 $V$ 是由 $n$ 阶实矩阵全体构成的欧氏空间（取 $Frobenius$ 内积），$V$ 上的线性变换 $φ$ 定义为 $φ(A) = PAQ$ ，其中 $P、Q ∈ V$<a hidden class="anchor" aria-hidden="true" href="#929-设-v-是由-n-阶实矩阵全体构成的欧氏空间取-frobenius-内积v-上的线性变换-φ-定义为-φa--paq-其中-pq--v">#</a></h3>
+<p>（1）求 $φ$ 的伴随 $φ^{*}$;</p>
+<p>（2）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是正交算子的充要条件是 $P&rsquo;P = cI_{n}$ ，$QQ&rsquo; = c^{-1}I_{n}$ ，其中 $c$ 是正实数；</p>
+<p>（3）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是自伴随算子的充要条件是 $P&rsquo; = ±P$ ，$Q&rsquo; = ±Q$ ；</p>
+<p>（4）若 $P、Q$ 都是可逆矩阵，求证：$φ$ 是正规算子的充要条件是 $P,Q$ 都是正规矩阵</p>
+<h3 id="第二章解答题-15">第二章解答题 $15$<a hidden class="anchor" aria-hidden="true" href="#第二章解答题-15">#</a></h3>
+<p>设 $A = (a_{ij})$ 为 $n$ 阶方阵，定义函数 $f(A) = \mathop{∑}\limits_{i,j=1}^{n}a_{ij}^{2}$ . 设 $P$ 为 $n$ 阶可逆矩阵，使得对任意的 $n$ 阶方阵 $A$ 成立：$f(PAP^{-1}) = f(A)$ . 证明：存在非零常数 $c$ ，使得 $P&rsquo;P = cI_{n}$</p>
+<h3 id="930-设-v-是-n-阶实对称矩阵构成的欧氏空间取-frobenius-内积">9.30 设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积）<a hidden class="anchor" aria-hidden="true" href="#930-设-v-是-n-阶实对称矩阵构成的欧氏空间取-frobenius-内积">#</a></h3>
+<p>（1）求出 $V$ 的一组标准正交基；</p>
+<p>（2）设 $T$ 是一个 $n$ 阶实矩阵，$V$ 上的线性变换 $φ$ 定义为 $φ(A) = T&rsquo;AT$，求证：$φ$ 是自伴随算子的充要条件是 $T$ 为对称矩阵或反对称矩阵</p>
+<hr>
+<p>有限维内积空间上的线性算子比存在伴随算子，然而下面的例题告诉我们，无限维空间上的线性算子的伴随算子可能不存在. 这一事实也反映了有限维内积空间与无限维内积空间的区别</p>
+<h3 id="931-设-u--mathbbrx-取例-916中的内积-任取-fxgx--u-若设某些系数为零则可能将它们都写成统一的形式fx--a_0--a_1x----a_nxngx--b_0--b_1x----b_nxn">9.31 设 $U = \mathbb{R}[x]$ ，取例 9.1（6）中的内积. 任取 $f(x),g(x) ∈ U$ ，若设某些系数为零，则可能将它们都写成统一的形式：$f(x) = a_{0} + a_{1}x + ⋯ + a_{n}x^{n}, g(x) = b_{0} + b_{1}x + ⋯ + b_{n}x^{n}$<a hidden class="anchor" aria-hidden="true" href="#931-设-u--mathbbrx-取例-916中的内积-任取-fxgx--u-若设某些系数为零则可能将它们都写成统一的形式fx--a_0--a_1x----a_nxngx--b_0--b_1x----b_nxn">#</a></h3>
+<p>（1）线性变换 $φ$ 定义为 $φ(f(x)) = a_{1} + a_{2}x + ⋯ + a_{n}x^{n-1}$ ，试求 $φ$ 的伴随；</p>
+<p>（2）线性变换 $φ$ 定义为 $φ(f(x)) = a_{0} + a_{1}(1+x) + a_{2}(1+x+x^{2}) + ⋯ + a_{n}(\mathop{∑}\limits_{i=0}^{n}x^{i})$ ，求证： $φ$ 的伴随不存在；</p>
 
 
   </div>
@@ -387,8 +441,8 @@
 
 <ul class="share-buttons">
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on x"
-            href="https://x.com/intent/tweet/?text=9.3%20%e4%bc%b4%20%e9%9a%8f&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&amp;hashtags=%e4%bc%b4%e9%9a%8f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on x"
+            href="https://x.com/intent/tweet/?text=9.4%20%e4%bc%b4%20%e9%9a%8f&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&amp;hashtags=%e4%bc%b4%e9%9a%8f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -396,8 +450,8 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&amp;title=9.3%20%e4%bc%b4%20%e9%9a%8f&amp;summary=9.3%20%e4%bc%b4%20%e9%9a%8f&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&amp;title=9.4%20%e4%bc%b4%20%e9%9a%8f&amp;summary=9.4%20%e4%bc%b4%20%e9%9a%8f&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -405,8 +459,8 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&title=9.3%20%e4%bc%b4%20%e9%9a%8f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f&title=9.4%20%e4%bc%b4%20%e9%9a%8f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -414,7 +468,7 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on facebook"
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on facebook"
             href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
@@ -423,8 +477,8 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on whatsapp"
-            href="https://api.whatsapp.com/send?text=9.3%20%e4%bc%b4%20%e9%9a%8f%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on whatsapp"
+            href="https://api.whatsapp.com/send?text=9.4%20%e4%bc%b4%20%e9%9a%8f%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -432,8 +486,8 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on telegram"
-            href="https://telegram.me/share/url?text=9.3%20%e4%bc%b4%20%e9%9a%8f&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on telegram"
+            href="https://telegram.me/share/url?text=9.4%20%e4%bc%b4%20%e9%9a%8f&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -441,8 +495,8 @@
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.3 伴 随 on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=9.3%20%e4%bc%b4%20%e9%9a%8f&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 9.4 伴 随 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=9.4%20%e4%bc%b4%20%e9%9a%8f&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2falgebra%2fadvance-algebra%2fch9%2f9.4%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path
