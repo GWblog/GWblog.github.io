@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.6 用正交变换法化简二次型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.6/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.6/</guid>
+      <description>$§$ 9.6 用正交变换法化简二次型 设 $f(x) = x&amp;rsquo;Ax$ 为实二次型，$A$ 为相伴的实对称矩阵，则通过非异线性变换 $x = Py$ 可将 $f(x)$ 化为只含平方项的标准型，然而从几何</description>
+    </item>
     <item>
       <title>9.4 伴 随</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.4/</link>

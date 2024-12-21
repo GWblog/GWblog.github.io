@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>二次型 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E4%BA%8C%E6%AC%A1%E5%9E%8B/</link>
+    <description>Recent content in 二次型 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E4%BA%8C%E6%AC%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.6 用正交变换法化简二次型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.6/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.6/</guid>
+      <description>$§$ 9.6 用正交变换法化简二次型 设 $f(x) = x&amp;rsquo;Ax$ 为实二次型，$A$ 为相伴的实对称矩阵，则通过非异线性变换 $x = Py$ 可将 $f(x)$ 化为只含平方项的标准型，然而从几何</description>
+    </item>
+    <item>
+      <title>9.6 用正交变换法化简二次型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.6/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.6/</guid>
+      <description>$§$ 9.6 用正交变换法化简二次型 设 $f(x) = x&amp;rsquo;Ax$ 为实二次型，$A$ 为相伴的实对称矩阵，则通过非异线性变换 $x = Py$ 可将 $f(x)$ 化为只含平方项的标准型，然而从几何</description>
+    </item>
+  </channel>
+</rss>
