@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/js/</link>
+    <description>Recent content in js on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js学习</title>
+      <link>https://GWblog.github.io/zh/posts/javascript_learn/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/javascript_learn/</guid>
+      <description>12.23:需要用js编写一些脚本，所以前来学习一下，目前使用的是这个 Javascript 前言 一个关于前端三驾马车的语言，起初是作为Java的“弟弟”出现的，</description>
+    </item>
+    <item>
+      <title>js学习</title>
+      <link>https://GWblog.github.io/zh/zh/posts/javascript_learn/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/javascript_learn/</guid>
+      <description>12.23:需要用js编写一些脚本，所以前来学习一下，目前使用的是这个 Javascript 前言 一个关于前端三驾马车的语言，起初是作为Java的“弟弟”出现的，</description>
+    </item>
+  </channel>
+</rss>

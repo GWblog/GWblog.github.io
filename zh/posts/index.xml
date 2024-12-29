@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>archive</title>
+      <link>https://GWblog.github.io/zh/posts/archive/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/archive/</guid>
+      <description>清华学生问得好 在中国科技和教育界，众所周知有通过舞弊而成为权贵者。 而且，各种公认的学术不端、造假被高龄的国内权贵所“堂而皇之化”，他们“士士</description>
+    </item>
+    <item>
+      <title>js学习</title>
+      <link>https://GWblog.github.io/zh/posts/javascript_learn/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/javascript_learn/</guid>
+      <description>12.23:需要用js编写一些脚本，所以前来学习一下，目前使用的是这个 Javascript 前言 一个关于前端三驾马车的语言，起初是作为Java的“弟弟”出现的，</description>
+    </item>
     <item>
       <title>python_learn</title>
       <link>https://GWblog.github.io/zh/posts/python_learn/</link>

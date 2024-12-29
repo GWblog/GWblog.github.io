@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>archive</title>
+      <link>https://GWblog.github.io/zh/tags/archive/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/archive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>js</title>
+      <link>https://GWblog.github.io/zh/tags/js/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>存档</title>
+      <link>https://GWblog.github.io/zh/tags/%E5%AD%98%E6%A1%A3/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E5%AD%98%E6%A1%A3/</guid>
+      <description></description>
+    </item>
     <item>
       <title>二次型</title>
       <link>https://GWblog.github.io/zh/tags/%E4%BA%8C%E6%AC%A1%E5%9E%8B/</link>
