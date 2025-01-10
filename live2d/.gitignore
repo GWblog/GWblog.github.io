@@ -1,0 +1,7 @@
+.idea
+.vscode
+Framework/.vscode
+/Demo/dist
+/Demo/node_modules
+/Demo/public
+/Demo/pnpm-lock.yaml

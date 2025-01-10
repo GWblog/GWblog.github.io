@@ -1,0 +1,38 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "椿.moc3",
+		"Textures": [
+			"椿.4096/texture_00.webp",
+			"椿.4096/texture_01.webp",
+			"椿.4096/texture_02.webp"
+		],
+		"Physics": "椿.physics3.json",
+		"DisplayInfo": "椿.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "O",
+				"File": "EXP3/爱心眼.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
