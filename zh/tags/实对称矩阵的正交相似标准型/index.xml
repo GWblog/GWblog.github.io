@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实对称矩阵的正交相似标准型 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/</link>
+    <description>Recent content in 实对称矩阵的正交相似标准型 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.7 实对称矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.7/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.7/</guid>
+      <description>$§$ 9.7 实对称矩阵的正交相似标准型 实对称矩阵的正交相似标准型是一个强有力的工具. 设 $A$ 和 $B$ 正交相似，即存在正交矩阵 $P$ ，使得 $B = P&amp;rsquo;AP$ ，由于 $P&amp;rsquo; = P^{-1}$ ，</description>
+    </item>
+    <item>
+      <title>9.7 实对称矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.7/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.7/</guid>
+      <description>$§$ 9.7 实对称矩阵的正交相似标准型 实对称矩阵的正交相似标准型是一个强有力的工具. 设 $A$ 和 $B$ 正交相似，即存在正交矩阵 $P$ ，使得 $B = P&amp;rsquo;AP$ ，由于 $P&amp;rsquo; = P^{-1}$ ，</description>
+    </item>
+  </channel>
+</rss>

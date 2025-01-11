@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.7 实对称矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.7/</link>
+      <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.7/</guid>
+      <description>$§$ 9.7 实对称矩阵的正交相似标准型 实对称矩阵的正交相似标准型是一个强有力的工具. 设 $A$ 和 $B$ 正交相似，即存在正交矩阵 $P$ ，使得 $B = P&amp;rsquo;AP$ ，由于 $P&amp;rsquo; = P^{-1}$ ，</description>
+    </item>
     <item>
       <title>9.6 用正交变换法化简二次型</title>
       <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.6/</link>
