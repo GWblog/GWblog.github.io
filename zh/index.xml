@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -43,6 +43,20 @@ A funny guy</description>
       <guid>https://GWblog.github.io/zh/zh/friends/</guid>
       <description>Tony
 A funny guy</description>
+    </item>
+    <item>
+      <title>9.8 同时合同对角化</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.8/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.8/</guid>
+      <description>$§$ 9.8 同时合同对角化 本节主要讨论两个涉及实对称矩阵的相关问题. 首先我们用实对称矩阵的正交相似标准型证明例 $9.75$ ，称为同时合同对角化，这一方法是</description>
+    </item>
+    <item>
+      <title>9.8 同时合同对角化</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.8/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.8/</guid>
+      <description>$§$ 9.8 同时合同对角化 本节主要讨论两个涉及实对称矩阵的相关问题. 首先我们用实对称矩阵的正交相似标准型证明例 $9.75$ ，称为同时合同对角化，这一方法是</description>
     </item>
     <item>
       <title>9.7 实对称矩阵的正交相似标准型</title>
