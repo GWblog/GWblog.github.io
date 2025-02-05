@@ -111,8 +111,8 @@
   "keywords": [
     "同时合同对角化"
   ],
-  "articleBody": " $§$ 9.8 同时合同对角化 本节主要讨论两个涉及实对称矩阵的相关问题. 首先我们用实对称矩阵的正交相似标准型证明例 $9.75$ ，称为同时合同对角化，这一方法是后面讨论的基础，在涉及两个实对称矩阵的问题中特别有用\n9.75 ",
-  "wordCount" : "97",
+  "articleBody": " $§$ 9.8 同时合同对角化 本节主要讨论两个涉及实对称矩阵的相关问题. 首先我们用实对称矩阵的正交相似标准型证明例 $9.75$ ，称为同时合同对角化，这一方法是后面讨论的基础，在涉及两个实对称矩阵的问题中特别有用\n9.75 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实对称矩阵，求证：必定存在可逆矩阵 $C$ ，使得 $$ C’AC = I_{n} , C’BC = \\text{diag}{λ_{1},λ_{2},⋯,λ_{n}} \\tag{9.11} $$ 其中 $λ_{i}$ 是 $A^{-1}B$ 的特征值\n9.76 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是 $n$ 阶半正定实对称矩阵，求证： $$ |A + B| ≥ |A| + |B| $$ 等号成立的充要条件是 $n = 1$ 或者当 $n ≥ 2$ 时，$B = O$\n小老弟，看我手指这是几🖖\n注：例 $9.76$ 也可以通过与例 $8.18,8.45$ 完全类似的操作来得到，具体的细节就留给大家完成. 另外利用摄动法可以将例题 $9.76$ 推广到两个矩阵都是半正定阵的情形. 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，则对任意的正实数 $t$ ，$A + tI_{n}$ 是正定阵，因此由 $9.76$ 这个例题可得 $|A + tI_{n} + B| ≥ |A + tI_{n}| + |B|$ ，令 $t → 0$ 即可得到 $|A + B| ≥ |A| + |B|$ . 当然也可以分情况讨论来证明，若 $|A| = |B| = 0$ ，则结论显然成立；若 $|A| \u003e 0$ 或 $|B| \u003e 0$ ，则 $A$ 或 $B$ 正定，直接利用 $9.76$ 即可得到结论\n9.77 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，求证： $$ |A + B| ≥ 2^{n}|A|^{\\frac{1}{2}}|B|^{\\frac{1}{2}} $$ 等号成立的充要条件是 $A = B$\n注意：$9.77$ 也可以通过摄动法或分类讨论证明，大家自行尝试\n9.66 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实矩阵，使得 $AB$ 是实对称矩阵，求证：$AB$ 是正定阵的充要条件是 $B$ 的特征值全是正实数 9.67 9.78 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$B^{-1} ≥ A^{-1}$ 9.79 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$A^{\\frac{1}{2}} ≥ B^{\\frac{1}{2}}$ 9.80 设 $A,B$ 都是 $n$ 阶实对称矩阵，其中 $A$ 正定且 $B$ 与 $A - B$ 均半正定，求证：$|\\lambda A - B|= 0$ 的所有根全落在 $[0,1]$ 中，并且 $|A| \\ge |B|$. 例题 $9.76$ 是一个重要的不等式，下面我们来看它的两个应用\n###8.56\n###9.81\n设 $A$ 是 $m \\times n$ 实矩阵， $B$ 是 $s \\times n$ 实矩阵，又假设他们都是行满秩的. 令 $M = AB’(BB’)^{-1}BA’$，求证：$M$ 和 $AA’ - M$ 都是半正定阵，并且 $|M| \\le |AA’|$\n例题 $9.75$ 的结论一般并不能推广到一个是半正定另一个是实对称矩阵的情形，例如，\n$ A = \\begin{pmatrix} 1\u00260\\\\ 0\u00260 \\end{pmatrix} $ ， $ B = \\begin{pmatrix} 0\u00261\\\\ 1\u00260 \\end{pmatrix} $\n经过计算可知 $A,B$ 不能同时合同对角化，不过下面的命题告诉我们，若 $A,B$ 都是半正定阵，则他们可以同时合同对角化\n9.82 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证：存在可逆矩阵 $C$，使得\n$$\nC’AC = \\text{diag}{1,\\cdots,1,0,\\cdots,0}, C’BC = \\text{diag}{\\mu_{1},\\cdots,\\mu_{r},\\mu＿{r＋1},\\cdots,\\mu{n}}\n$$\n利用例题 $9.82$ 可以给出例题 $9.76,9.77$ 的半正定版本的第三种证法，此外我们再给出例题 $9.82$ 的两个应用\n9.83 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证： （1）$A＋B$ 是正定阵的充要条件是存在 $n$ 个线性无关的实列向量 $\\alpha_{1},\\alpha_{2},\\cdots,\\alpha_{n}$ ，以及指标集 $I \\subseteq {1,2,\\cdots,n}$ ，使得\n$$\n\\alpha_{i}’ A \\alpha_{j} = \\alpha_{i}’ B \\alpha_{j} = 0（\\forall i \\neq j）, \\alpha_{i}’ A \\alpha_{i} \u003e 0 （\\forall i \\in I）, \\alpha_{j}’ B \\alpha_{j} （\\forall j \\notin I）;\n$$ （2）$r(A:B) = r(A ＋ B)$\n9.67 9.84 设 $A,B,C$ 都是 $n$ 阶半正定实对称矩阵，使得 $ABC$ 是对称矩阵，即满足 $ABC = CBA$ ，求证：$ABC$ 是半正定阵\n2025..2.05 马上有些现实原因，我不能继续更新在这个博客上，但是习题解析和下一个分析选解（从数学分析，流形上的微积分，微分几何中选择有代表的题目，因为这些学科中很难找到类似白皮这样适中的习题了）已经想好了，所以接下来我仍会继续写，但等时间合适再更新\n祝大家新年快乐，事业顺心！！\n",
+  "wordCount" : "1403",
   "inLanguage": "zh",
   "datePublished": "2025-01-20T00:00:00Z",
   "dateModified": "2025-01-20T00:00:00Z",
@@ -276,7 +276,7 @@
     <h1 class="post-title entry-hint-parent">
       9.8 同时合同对角化
     </h1>
-    <div class="post-meta"><span title='2025-01-20 00:00:00 +0000 UTC'>2025-01-20</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;97 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2025-01-20 00:00:00 +0000 UTC'>2025-01-20</span>&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1403 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -291,7 +291,29 @@
                         <a href="#-98-%e5%90%8c%e6%97%b6%e5%90%88%e5%90%8c%e5%af%b9%e8%a7%92%e5%8c%96" aria-label="$§$ 9.8 同时合同对角化">$§$ 9.8 同时合同对角化</a><ul>
                             
                     <li>
-                        <a href="#975" aria-label="9.75">9.75</a>
+                        <a href="#975-%e8%ae%be-a-%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5b-%e6%98%af%e5%90%8c%e9%98%b6%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81%e5%bf%85%e5%ae%9a%e5%ad%98%e5%9c%a8%e5%8f%af%e9%80%86%e7%9f%a9%e9%98%b5-c-%e4%bd%bf%e5%be%97" aria-label="9.75 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实对称矩阵，求证：必定存在可逆矩阵 $C$ ，使得">9.75 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实对称矩阵，求证：必定存在可逆矩阵 $C$ ，使得</a></li>
+                    <li>
+                        <a href="#976-%e8%ae%be-a-%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5b-%e6%98%af-n-%e9%98%b6%e5%8d%8a%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81" aria-label="9.76 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是 $n$ 阶半正定实对称矩阵，求证：">9.76 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是 $n$ 阶半正定实对称矩阵，求证：</a></li>
+                    <li>
+                        <a href="#977-%e8%ae%be-ab-%e9%83%bd%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81" aria-label="9.77 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，求证：">9.77 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，求证：</a></li>
+                    <li>
+                        <a href="#966-%e8%ae%be-a-%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5b-%e6%98%af%e5%90%8c%e9%98%b6%e5%ae%9e%e7%9f%a9%e9%98%b5%e4%bd%bf%e5%be%97-ab-%e6%98%af%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81ab-%e6%98%af%e6%ad%a3%e5%ae%9a%e9%98%b5%e7%9a%84%e5%85%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%af-b-%e7%9a%84%e7%89%b9%e5%be%81%e5%80%bc%e5%85%a8%e6%98%af%e6%ad%a3%e5%ae%9e%e6%95%b0" aria-label="9.66 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实矩阵，使得 $AB$ 是实对称矩阵，求证：$AB$ 是正定阵的充要条件是 $B$ 的特征值全是正实数">9.66 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实矩阵，使得 $AB$ 是实对称矩阵，求证：$AB$ 是正定阵的充要条件是 $B$ 的特征值全是正实数</a></li>
+                    <li>
+                        <a href="#967" aria-label="9.67">9.67</a></li>
+                    <li>
+                        <a href="#978-%e8%ae%be-ab-%e9%83%bd%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%bb%a1%e8%b6%b3-a--b-%e6%b1%82%e8%af%81b-1--a-1" aria-label="9.78 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$B^{-1} ≥ A^{-1}$">9.78 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$B^{-1} ≥ A^{-1}$</a></li>
+                    <li>
+                        <a href="#979-%e8%ae%be-ab-%e9%83%bd%e6%98%af-n-%e9%98%b6%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%bb%a1%e8%b6%b3-a--b-%e6%b1%82%e8%af%81afrac12--bfrac12" aria-label="9.79 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$A^{\frac{1}{2}} ≥ B^{\frac{1}{2}}$">9.79 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$A^{\frac{1}{2}} ≥ B^{\frac{1}{2}}$</a></li>
+                    <li>
+                        <a href="#980-%e8%ae%be-ab-%e9%83%bd%e6%98%af-n-%e9%98%b6%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e5%85%b6%e4%b8%ad-a-%e6%ad%a3%e5%ae%9a%e4%b8%94-b-%e4%b8%8e-a---b-%e5%9d%87%e5%8d%8a%e6%ad%a3%e5%ae%9a%e6%b1%82%e8%af%81lambda-a---b-0-%e7%9a%84%e6%89%80%e6%9c%89%e6%a0%b9%e5%85%a8%e8%90%bd%e5%9c%a8-01-%e4%b8%ad%e5%b9%b6%e4%b8%94-a-ge-b" aria-label="9.80 设 $A,B$ 都是 $n$ 阶实对称矩阵，其中 $A$ 正定且 $B$ 与 $A - B$ 均半正定，求证：$|\lambda A - B|= 0$ 的所有根全落在 $[0,1]$ 中，并且 $|A| \ge |B|$.">9.80 设 $A,B$ 都是 $n$ 阶实对称矩阵，其中 $A$ 正定且 $B$ 与 $A - B$ 均半正定，求证：$|\lambda A - B|= 0$ 的所有根全落在 $[0,1]$ 中，并且 $|A| \ge |B|$.</a></li>
+                    <li>
+                        <a href="#982" aria-label="9.82">9.82</a></li>
+                    <li>
+                        <a href="#983-%e8%ae%be-ab-%e9%83%bd%e6%98%af-n-%e9%98%b6%e5%8d%8a%e6%ad%a3%e5%ae%9a%e5%ae%9e%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81" aria-label="9.83 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证：">9.83 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证：</a></li>
+                    <li>
+                        <a href="#967-1" aria-label="9.67">9.67</a></li>
+                    <li>
+                        <a href="#984" aria-label="9.84">9.84</a>
                     </li>
                 </ul>
                 </li>
@@ -369,7 +391,196 @@
 <h2 id="-98-同时合同对角化">$§$ 9.8 同时合同对角化<a hidden class="anchor" aria-hidden="true" href="#-98-同时合同对角化">#</a></h2>
 <p>本节主要讨论两个涉及实对称矩阵的相关问题. 首先我们用实对称矩阵的正交相似标准型证明例 $9.75$ ，称为<strong>同时合同对角化</strong>，这一方法是后面讨论的基础，在涉及两个实对称矩阵的问题中特别有用</p>
 <hr>
-<h3 id="975">9.75<a hidden class="anchor" aria-hidden="true" href="#975">#</a></h3>
+<h3 id="975-设-a-是-n-阶正定实对称矩阵b-是同阶实对称矩阵求证必定存在可逆矩阵-c-使得">9.75 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实对称矩阵，求证：必定存在可逆矩阵 $C$ ，使得<a hidden class="anchor" aria-hidden="true" href="#975-设-a-是-n-阶正定实对称矩阵b-是同阶实对称矩阵求证必定存在可逆矩阵-c-使得">#</a></h3>
+<p>$$
+C&rsquo;AC = I_{n} , C&rsquo;BC = \text{diag}{λ_{1},λ_{2},⋯,λ_{n}}
+\tag{9.11}
+$$
+其中 $λ_{i}$ 是 $A^{-1}B$ 的特征值</p>
+<h3 id="976-设-a-是-n-阶正定实对称矩阵b-是-n-阶半正定实对称矩阵求证">9.76 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是 $n$ 阶半正定实对称矩阵，求证：<a hidden class="anchor" aria-hidden="true" href="#976-设-a-是-n-阶正定实对称矩阵b-是-n-阶半正定实对称矩阵求证">#</a></h3>
+<p>$$
+|A + B| ≥ |A| + |B|
+$$
+等号成立的充要条件是 $n = 1$ 或者当 $n ≥ 2$ 时，$B = O$</p>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注：例 $9.76$ 也可以通过与例 $8.18,8.45$ 完全类似的操作来得到，具体的细节就留给大家完成.
+另外利用摄动法可以将例题 $9.76$ 推广到两个矩阵都是半正定阵的情形. 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，则对任意的正实数 $t$ ，$A + tI_{n}$ 是正定阵，因此由 $9.76$ 这个例题可得 $|A + tI_{n} + B| ≥ |A + tI_{n}| + |B|$ ，令 $t → 0$ 即可得到 $|A + B| ≥ |A| + |B|$ .
+当然也可以分情况讨论来证明，若 $|A| = |B| = 0$ ，则结论显然成立；若 $|A| &gt; 0$ 或 $|B| &gt; 0$ ，则 $A$ 或 $B$ 正定，直接利用 $9.76$ 即可得到结论</p></div>
+<h3 id="977-设-ab-都是-n-阶正定实对称矩阵求证">9.77 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，求证：<a hidden class="anchor" aria-hidden="true" href="#977-设-ab-都是-n-阶正定实对称矩阵求证">#</a></h3>
+<p>$$
+|A + B| ≥ 2^{n}|A|^{\frac{1}{2}}|B|^{\frac{1}{2}}
+$$
+等号成立的充要条件是 $A = B$</p>
+<p>注意：$9.77$ 也可以通过摄动法或分类讨论证明，大家自行尝试</p>
+<hr>
+<h3 id="966-设-a-是-n-阶正定实对称矩阵b-是同阶实矩阵使得-ab-是实对称矩阵求证ab-是正定阵的充要条件是-b-的特征值全是正实数">9.66 设 $A$ 是 $n$ 阶正定实对称矩阵，$B$ 是同阶实矩阵，使得 $AB$ 是实对称矩阵，求证：$AB$ 是正定阵的充要条件是 $B$ 的特征值全是正实数<a hidden class="anchor" aria-hidden="true" href="#966-设-a-是-n-阶正定实对称矩阵b-是同阶实矩阵使得-ab-是实对称矩阵求证ab-是正定阵的充要条件是-b-的特征值全是正实数">#</a></h3>
+<h3 id="967">9.67<a hidden class="anchor" aria-hidden="true" href="#967">#</a></h3>
+<h3 id="978-设-ab-都是-n-阶正定实对称矩阵满足-a--b-求证b-1--a-1">9.78 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$B^{-1} ≥ A^{-1}$<a hidden class="anchor" aria-hidden="true" href="#978-设-ab-都是-n-阶正定实对称矩阵满足-a--b-求证b-1--a-1">#</a></h3>
+<h3 id="979-设-ab-都是-n-阶正定实对称矩阵满足-a--b-求证afrac12--bfrac12">9.79 设 $A,B$ 都是 $n$ 阶正定实对称矩阵，满足 $A ≥ B$ ，求证：$A^{\frac{1}{2}} ≥ B^{\frac{1}{2}}$<a hidden class="anchor" aria-hidden="true" href="#979-设-ab-都是-n-阶正定实对称矩阵满足-a--b-求证afrac12--bfrac12">#</a></h3>
+<hr>
+<h3 id="980-设-ab-都是-n-阶实对称矩阵其中-a-正定且-b-与-a---b-均半正定求证lambda-a---b-0-的所有根全落在-01-中并且-a-ge-b">9.80 设 $A,B$ 都是 $n$ 阶实对称矩阵，其中 $A$ 正定且 $B$ 与 $A - B$ 均半正定，求证：$|\lambda A - B|= 0$ 的所有根全落在 $[0,1]$ 中，并且 $|A| \ge |B|$.<a hidden class="anchor" aria-hidden="true" href="#980-设-ab-都是-n-阶实对称矩阵其中-a-正定且-b-与-a---b-均半正定求证lambda-a---b-0-的所有根全落在-01-中并且-a-ge-b">#</a></h3>
+<p>例题 $9.76$ 是一个重要的不等式，下面我们来看它的两个应用</p>
+<p>###8.56</p>
+<p>###9.81</p>
+<p>设 $A$ 是  $m \times n$ 实矩阵， $B$ 是  $s \times n$ 实矩阵，又假设他们都是行满秩的. 令 $M = AB&rsquo;(BB&rsquo;)^{-1}BA&rsquo;$，求证：$M$ 和 $AA&rsquo; - M$ 都是半正定阵，并且 $|M| \le |AA&rsquo;|$</p>
+<p>例题 $9.75$ 的结论一般并不能推广到一个是半正定另一个是实对称矩阵的情形，例如，</p>
+<p>$
+A =
+\begin{pmatrix}
+1&amp;0\\
+0&amp;0
+\end{pmatrix}
+$
+，
+$
+B =
+\begin{pmatrix}
+0&amp;1\\
+1&amp;0
+\end{pmatrix}
+$</p>
+<p>经过计算可知 $A,B$ 不能同时合同对角化，不过下面的命题告诉我们，若 $A,B$ 都是半正定阵，则他们可以同时合同对角化</p>
+<h3 id="982">9.82<a hidden class="anchor" aria-hidden="true" href="#982">#</a></h3>
+<p>设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证：存在可逆矩阵 $C$，使得</p>
+<p>$$</p>
+<p>C&rsquo;AC = \text{diag}{1,\cdots,1,0,\cdots,0}, C&rsquo;BC = \text{diag}{\mu_{1},\cdots,\mu_{r},\mu＿{r＋1},\cdots,\mu{n}}</p>
+<p>$$</p>
+<p>利用例题 $9.82$ 可以给出例题 $9.76,9.77$ 的半正定版本的第三种证法，此外我们再给出例题 $9.82$ 的两个应用</p>
+<h3 id="983-设-ab-都是-n-阶半正定实对称矩阵求证">9.83 设 $A,B$ 都是 $n$ 阶半正定实对称矩阵，求证：<a hidden class="anchor" aria-hidden="true" href="#983-设-ab-都是-n-阶半正定实对称矩阵求证">#</a></h3>
+<p>（1）$A＋B$ 是正定阵的充要条件是存在 $n$ 个线性无关的实列向量 $\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$ ，以及指标集 $I \subseteq {1,2,\cdots,n}$ ，使得</p>
+<p>$$</p>
+<p>\alpha_{i}&rsquo; A \alpha_{j} = \alpha_{i}&rsquo; B \alpha_{j} = 0（\forall i \neq j）, \alpha_{i}&rsquo; A \alpha_{i} &gt; 0 （\forall i \in I）, \alpha_{j}&rsquo; B \alpha_{j} （\forall j \notin I）;</p>
+<p>$$
+（2）$r(A:B) = r(A ＋ B)$</p>
+<h3 id="967-1">9.67<a hidden class="anchor" aria-hidden="true" href="#967-1">#</a></h3>
+<h3 id="984">9.84<a hidden class="anchor" aria-hidden="true" href="#984">#</a></h3>
+<p>设 $A,B,C$ 都是 $n$ 阶半正定实对称矩阵，使得 $ABC$ 是对称矩阵，即满足 $ABC = CBA$ ，求证：$ABC$ 是半正定阵</p>
+<hr>
+<p><strong>2025..2.05</strong> 马上有些现实原因，我不能继续更新在这个博客上，但是习题解析和下一个分析选解（从数学分析，流形上的微积分，微分几何中选择有代表的题目，因为这些学科中很难找到类似白皮这样适中的习题了）已经想好了，所以接下来我仍会继续写，但等时间合适再更新</p>
+<p>祝大家新年快乐，事业顺心！！</p>
 
 
   </div>
