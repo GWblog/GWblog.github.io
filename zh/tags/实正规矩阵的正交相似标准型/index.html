@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>实正规矩阵的正交相似标准型 | 避风港</title>
+<meta name="keywords" content="">
+<meta name="description" content="避风港 Haven">
+<meta name="author" content="G.W">
+<link rel="canonical" href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
+<link rel="apple-touch-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
+<link rel="mask-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/index.xml">
+<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="实正规矩阵的正交相似标准型" />
+<meta property="og:description" content="避风港 Haven" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
+
+<meta name="twitter:title" content="实正规矩阵的正交相似标准型"/>
+<meta name="twitter:description" content="避风港 Haven"/>
+
+<style>
+    .gallery-photos{width:100%;}
+    .gallery-photo{width:24.9%;position: relative;visibility: hidden;overflow: hidden;}
+    .gallery-photo.visible{visibility: visible;animation: fadeIn 2s;}
+    .gallery-photo img{display: block;width:100%;border-radius:0;padding:4px;animation: fadeIn 1s;cursor: pointer;transition: all .4s ease-in-out;}
+    .gallery-photo span.photo-title,.gallery-photo span.photo-time{background: rgba(0, 0, 0, 0.3);padding:0px 8px;font-size:0.9rem;color: #fff;display:none;animation: fadeIn 1s;}
+    .gallery-photo span.photo-title{position:absolute;bottom:4px;left:4px;}
+    .gallery-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
+    .gallery-photo:hover span.photo-title{display:block;}
+    .gallery-photo:hover img{transform: scale(1.1);}
+    @media screen and (max-width: 1800px) {
+      .gallery-photo{width:33.3%;}
+    }
+    @media screen and (max-width: 860px) {
+      .gallery-photo{width:49.9%;}
+    }
+    @keyframes fadeIn{
+      0% {opacity: 0;}
+       100% {opacity: 1;}
+    }
+    </style>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://GWblog.github.io/zh/" accesskey="h" title="G.W Haven (Alt + H)">
+                <img src="https://GWblog.github.io/apple-touch-icon.png" alt="" aria-label="logo"
+                    height="35">G.W Haven</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://GWblog.github.io/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                    <li>
+                        <a href="https://GWblog.github.io/params/" title="Params"
+                            aria-label="Params">Params</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://GWblog.github.io/zh/search" title="🔍搜索 (Alt &#43; /)" accesskey=/>
+                    <span>🔍搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/" title="🏠主页">
+                    <span>🏠主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/posts" title="📚文章">
+                    <span>📚文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/archives" title="⏱时间轴">
+                    <span>⏱时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/tags" title="🔖标签">
+                    <span>🔖标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/friends" title="🧑‍🤝‍🧑友链">
+                    <span>🧑‍🤝‍🧑友链</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/about" title="🙋🏻‍♂️关于">
+                    <span>🙋🏻‍♂️关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/photos" title="📷写真帳">
+                    <span>📷写真帳</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/relitu" title="😁热力图">
+                    <span>😁热力图</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/random" title="🫰逛街">
+                    <span>🫰逛街</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/talk" title="🤡">
+                    <span>🤡</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    实正规矩阵的正交相似标准型
+    <a href="/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">9.12 实正规矩阵的正交相似标准型
+    </h2>
+  </header>
+  <footer class="entry-footer"><span title='2025-02-10 00:00:00 +0000 UTC'>2025-02-10</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;278 字&nbsp;·&nbsp;G.W</footer>
+  <a class="entry-link" aria-label="post link to 9.12 实正规矩阵的正交相似标准型" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.12/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">9.12 实正规矩阵的正交相似标准型
+    </h2>
+  </header>
+  <footer class="entry-footer"><span title='2025-02-10 00:00:00 +0000 UTC'>2025-02-10</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;278 字&nbsp;·&nbsp;G.W</footer>
+  <a class="entry-link" aria-label="post link to 9.12 实正规矩阵的正交相似标准型" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.12/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="https://GWblog.github.io/zh/">避风港</a></span>
+    <span>
+        Powered by
+        <a href="https://gwblog.github.io/" rel="noopener noreferrer" target="_blank">G.W Haven</a> &
+        <a href="https://gwblog.github.io/" rel="noopener" target="_blank"> 看我手指这是几 iIi</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+
+<script  color="255,182,193" opacity='1' zIndex="-1" count="100" src="https://cdn.bootcss.com/canvas-nest.js/2.0.4/canvas-nest.js" type="text/javascript"></script>
+
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+
+<script>
+    const cdnPath = 'https://cdn.jsdelivr.net/gh/GWblog/live2d-widget-v6@latest/';
+    const config = {
+      
+      path: {
+        homePath: '/zh/',
+        modelPath: cdnPath + "/Resources/",
+        cssPath: cdnPath + "/waifu.css",
+        tipsJsonPath: cdnPath + "/waifu-tips.json",
+        tipsJsPath: cdnPath + "/waifu-tips.js",
+        live2dCorePath: cdnPath + "/Core/live2dcubismcore.js",
+        live2dSdkPath: cdnPath + "/live2d-sdk.js"
+      },
+      
+      tools: ["hitokoto", "asteroids", "express", "switch-model", "switch-texture",  "quit"],
+      
+      drag: {
+        enable: true,
+        direction: ["x", "y"]
+      },
+      
+      switchType: "order"
+    }
+  
+    
+    if (screen.width >= 768) {
+      Promise.all([
+        loadExternalResource(config.path.cssPath, "css"),
+        loadExternalResource(config.path.live2dCorePath, "js"),
+        loadExternalResource(config.path.live2dSdkPath, "js"),
+        loadExternalResource(config.path.tipsJsPath, "js")
+      ]).then(() => {
+        initWidget({
+          waifuPath: config.path.tipsJsonPath,
+          cdnPath: config.path.modelPath,
+          tools: config.tools,
+          dragEnable: config.drag.enable,
+          dragDirection: config.drag.direction,
+          switchType: config.switchType
+        });
+      });
+    }
+  
+    
+    function loadExternalResource(url, type) {
+      return new Promise((resolve, reject) => {
+        let tag;
+        if (type === "css") {
+          tag = document.createElement("link");
+          tag.rel = "stylesheet";
+          tag.href = url;
+        }
+        else if (type === "js") {
+          tag = document.createElement("script");
+          tag.src = url;
+        }
+        if (tag) {
+          tag.onload = () => resolve(url);
+          tag.onerror = () => reject(url);
+          document.head.appendChild(tag);
+        }
+      });
+    }
+  </script>
+
+
+
+
+
+
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+   <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023084194号-2 | </a>
+      &copy;
+      2025
+      
+    </p>
+    
+
+
+
+<span id="voyager">载入旅行者一号离地球距离信息...</span>
+
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        
+        now.setTime(now.getTime()+250);
+        var start = new Date("08/01/2022 00:00:00"); 
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); 
+        var unit = (dis / 149600000).toFixed(6);  
+
+        document.getElementById("voyager").innerHTML = "旅行者 1 号当前距离地球 "+ dis +" 千米，约为 "+ unit +" 个天文单位 🚀"
+    }
+    setInterval("createtime()",250); 
+</script> 
+
+
+
+<script defer crossorigin="anonymous" src="/js/random_image.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+<script src="https://immmmm.com/waterfall.min.js"></script>
+<script src="https://immmmm.com/imgStatus.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+var photosAll = document.getElementsByTagName('gallery') || '';
+if(photosAll){
+  for(var i=0;i < photosAll.length;i++){
+    photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
+    var photosIMG = photosAll[i].getElementsByTagName('img')
+    for(var j=0;j < photosIMG.length;j++){
+      wrap(photosIMG[j], document.createElement('div'));
+    }
+  }
+}
+function wrap(el, wrapper) {
+  wrapper.className = "gallery-photo";
+  el.parentNode.insertBefore(wrapper, el);
+  wrapper.appendChild(el);
+}
+
+let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
+if(galleryPhotos){
+  imgStatus.watch('.gallery-photo img', function(imgs) {
+    if(imgs.isDone()){
+      for(var i=0;i < galleryPhotos.length;i++){
+        waterfall(galleryPhotos[i]);
+        let pagePhoto = galleryPhotos[i].querySelectorAll('.gallery-photo');
+        for(var j=0;j < pagePhoto.length;j++){pagePhoto[j].className += " visible"};
+      }
+    }
+  });
+  window.addEventListener('resize', function () {
+    for(var i=0;i < galleryPhotos.length;i++){
+      waterfall(galleryPhotos[i]);
+    }
+  });
+}
+});
+</script>
+
+<script src="https://immmmm.com/view-image.js"></script>
+<script src="https://immmmm.com/lately.min.js"></script>
+<script>
+  window.Lately && Lately.init({ target: '.photo-time'});
+  window.ViewImage && ViewImage.init('.gallery-photo img')
+</script>
+
+</body>
+
+</html>

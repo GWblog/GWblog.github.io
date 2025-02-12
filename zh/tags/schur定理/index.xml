@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schur定理 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/schur%E5%AE%9A%E7%90%86/</link>
+    <description>Recent content in Schur定理 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/schur%E5%AE%9A%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.9 $Schur$ 定理</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.9/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.9/</guid>
+      <description>$§$ 9.9 $Schur$ 定理 对于一般的复（实）矩阵，我们当然不能期望它酉相似（正交相似）于对角矩阵。但对于复矩阵，我们可以证明它必定酉相似于上三角矩阵，这</description>
+    </item>
+    <item>
+      <title>9.9 $Schur$ 定理</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.9/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.9/</guid>
+      <description>$§$ 9.9 $Schur$ 定理 对于一般的复（实）矩阵，我们当然不能期望它酉相似（正交相似）于对角矩阵。但对于复矩阵，我们可以证明它必定酉相似于上三角矩阵，这</description>
+    </item>
+  </channel>
+</rss>

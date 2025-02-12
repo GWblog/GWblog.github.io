@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实正规矩阵的正交相似标准型 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/</link>
+    <description>Recent content in 实正规矩阵的正交相似标准型 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.12 实正规矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.12/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.12/</guid>
+      <description>$§$ 9.12 实正规矩阵的正交相似标准型 上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型</description>
+    </item>
+    <item>
+      <title>9.12 实正规矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.12/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.12/</guid>
+      <description>$§$ 9.12 实正规矩阵的正交相似标准型 上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型</description>
+    </item>
+  </channel>
+</rss>

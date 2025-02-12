@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.12 实正规矩阵的正交相似标准型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.12/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.12/</guid>
+      <description>$§$ 9.12 实正规矩阵的正交相似标准型 上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型</description>
+    </item>
+    <item>
+      <title>9.11 实正规算子与实正规矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.11/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.11/</guid>
+      <description>$§$ 9.11 实正规算子与实正规矩阵 欧式空间上的正规算子或实正规矩阵理论要比酉空间上的正规算子或复正规算子理论要复杂，原因在于并不是每个实矩阵都有</description>
+    </item>
+    <item>
+      <title>9.10 复正规算子与复正规矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.10/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.10/</guid>
+      <description>$§$ 9.10 复正规算子与复正规矩阵 酉空间 $V$ 上的线性变换 $φ$ 是正规算子的充要条件是存在 $V$ 的一组标准正交基，使得 $φ$ 在这组基下的表示矩阵为对角矩</description>
+    </item>
+    <item>
+      <title>9.9 $Schur$ 定理</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.9/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.9/</guid>
+      <description>$§$ 9.9 $Schur$ 定理 对于一般的复（实）矩阵，我们当然不能期望它酉相似（正交相似）于对角矩阵。但对于复矩阵，我们可以证明它必定酉相似于上三角矩阵，这</description>
+    </item>
     <item>
       <title>9.8 同时合同对角化</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.8/</link>

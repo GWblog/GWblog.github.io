@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>复正规算子与复正规矩阵 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%A4%8D%E6%AD%A3%E8%A7%84%E7%AE%97%E5%AD%90%E4%B8%8E%E5%A4%8D%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5/</link>
+    <description>Recent content in 复正规算子与复正规矩阵 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%A4%8D%E6%AD%A3%E8%A7%84%E7%AE%97%E5%AD%90%E4%B8%8E%E5%A4%8D%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9.10 复正规算子与复正规矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.10/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.10/</guid>
+      <description>$§$ 9.10 复正规算子与复正规矩阵 酉空间 $V$ 上的线性变换 $φ$ 是正规算子的充要条件是存在 $V$ 的一组标准正交基，使得 $φ$ 在这组基下的表示矩阵为对角矩</description>
+    </item>
+    <item>
+      <title>9.10 复正规算子与复正规矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.10/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.10/</guid>
+      <description>$§$ 9.10 复正规算子与复正规矩阵 酉空间 $V$ 上的线性变换 $φ$ 是正规算子的充要条件是存在 $V$ 的一组标准正交基，使得 $φ$ 在这组基下的表示矩阵为对角矩</description>
+    </item>
+  </channel>
+</rss>
