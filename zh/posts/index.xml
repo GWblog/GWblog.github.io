@@ -14,13 +14,6 @@
     <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>archive</title>
-      <link>https://GWblog.github.io/zh/posts/archive/archive/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/archive/archive/</guid>
-      <description>清华学生问得好 在中国科技和教育界，众所周知有通过舞弊而成为权贵者。 而且，各种公认的学术不端、造假被高龄的国内权贵所“堂而皇之化”，他们“士士</description>
-    </item>
-    <item>
       <title>js学习</title>
       <link>https://GWblog.github.io/zh/posts/javascript_learn/</link>
       <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
@@ -68,13 +61,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/bilibili/</guid>
       <description>插入视频 这是一个测试 &lt;!DOCTYPE HTML&gt; &lt;!DOCTYPE HTML&gt; &lt;!DOCTYPE HTML&gt; colorbox 小老弟，我警告你啊 小老弟，我警告你啊 大家伙，靠过来听我说个事儿，我是个~ 小老弟，我警告你啊 此外，还有tip</description>
-    </item>
-    <item>
-      <title>能分享你相册里最青春的照片吗？</title>
-      <link>https://GWblog.github.io/zh/posts/archive/fuyuehua/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/archive/fuyuehua/</guid>
-      <description>url: https://www.zhihu.com/question/619248459/answer/3383901860 高中为数不多的光，第二张写字的是他的手</description>
     </item>
   </channel>
 </rss>
