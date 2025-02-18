@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -43,6 +43,20 @@ A funny guy</description>
       <guid>https://GWblog.github.io/zh/zh/friends/</guid>
       <description>Tony
 A funny guy</description>
+    </item>
+    <item>
+      <title>9.13 同时合同正交对角化与同时正交标准化</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.13/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.13/</guid>
+      <description>$§$ 9.13 同时合同正交对角化与同时正交标准化 在 $§ 6.3$ 中我们讨论过乘法交换性诱导的同时上三角化和同时对角化的问题,这次我们将讨论这样两个问题: (1)</description>
+    </item>
+    <item>
+      <title>9.13 同时合同正交对角化与同时正交标准化</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.13/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.13/</guid>
+      <description>$§$ 9.13 同时合同正交对角化与同时正交标准化 在 $§ 6.3$ 中我们讨论过乘法交换性诱导的同时上三角化和同时对角化的问题,这次我们将讨论这样两个问题: (1)</description>
     </item>
     <item>
       <title>9.12 实正规矩阵的正交相似标准型</title>

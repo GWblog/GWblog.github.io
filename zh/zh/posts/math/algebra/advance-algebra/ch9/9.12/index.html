@@ -111,8 +111,8 @@
   "keywords": [
     "实正规矩阵的正交相似标准型"
   ],
-  "articleBody": " $§$ 9.12 实正规矩阵的正交相似标准型 上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型在矩阵理论中的一些应用.\n例题 $9.75$ 告诉我们，若 $A$ 是正定实对称矩阵，$B$ 是实对称矩阵，则存在可逆矩阵 $C$ ，使得 $C’AC = I_{n}$ ，$C’BC$ 是对角矩阵，这个结论称为同时合同对角化. 在 $§9.8$ 中，我们已看到同时合同对角化在处理实对称矩阵在处理实对称矩阵时的诸多应用. 类似地，若 $S$ 实反对称矩阵，则例题 $9.114$ 告诉我们存在可逆矩阵 $C$ ，使得 $C’AC = I_{n}$ ，$C’SC$ 是实对称矩阵的正交相似标准型，我们亦称之为同时合同对角化\n9.114 ",
-  "wordCount" : "278",
+  "articleBody": " $§$ 9.12 实正规矩阵的正交相似标准型 上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型在矩阵理论中的一些应用.\n例题 $9.75$ 告诉我们，若 $A$ 是正定实对称矩阵，$B$ 是实对称矩阵，则存在可逆矩阵 $C$ ，使得 $C’AC = I_{n}$ ，$C’BC$ 是对角矩阵，这个结论称为同时合同对角化. 在 $§9.8$ 中，我们已看到同时合同对角化在处理实对称矩阵在处理实对称矩阵时的诸多应用. 类似地，若 $S$ 实反对称矩阵，则例题 $9.114$ 告诉我们存在可逆矩阵 $C$ ，使得 $C’AC = I_{n}$ ，$C’SC$ 是实对称矩阵的正交相似标准型，我们亦称之为同时合同对角化\n9.114 设 $A$ 为 $n$ 阶正定实对称矩阵，$S$ 是同阶实反对称矩阵，求证：存在可逆矩阵 $C$ ，使得 $$ C’AC = I_{n}, C’SC = diag{ \\begin{pmatrix} 0\u0026b_{1}\\\\ -b_{1}\u00260 \\end{pmatrix} ,⋯, \\begin{pmatrix} 0\u0026b_{r}\\\\ -b_{r}\u00260 \\end{pmatrix} ,0,⋯,0 } \\tag{9.17} $$ 其中 $b_{1},⋯,b_{r}$ 是非零实数\n同时合同标准型在处理实反对称矩阵时比较有用，我们来看三个典型例题\n8.45 设 $A$ 为 $n$ 阶正定实对称矩阵，$S$ 是 $n$ 阶实反对称矩阵，求证：\n（1）$|A+S|≥|A| + |S|$，且等号成立当且仅当 $n ≤ 2$ 或 $n ≥ 3$ 时，$S = O$;\n（2）$|A+S|≥|A|$ ，且等号成立当且仅当 $S = O$\n9.115 设 $n$ 阶实矩阵 $A$ 满足 $A + A’$ 正定（即 $A$ 是亚正定阵），求证： $$ |A+A’|≤2^{n}|A| $$ 且等号成立的充要条件是 $A$ 为对称矩阵\n9.116 设 $A,B$ 为 $n$ 阶实矩阵，其中 $A$ 的 $n$ 个特征值都是正实数，并且满足 $AB + BA’ =2AA’$ ，证明：\n（1）$B$ 必为对称矩阵；\n（2）$A$ 为对称当且仅当 $A = B$ ，也当且仅当 $tr(B^{2}) = tr(AA’)$;\n（3）$|B| ≥ |A|$ ，且等号成立的充要条件是 $A = B$\n9.117 设 $A$ 为 $n$ 阶实正规矩阵，求证：存在特征值为 $1$ 或 $-1$ 的正交矩阵 $P$ ，使得 $P’AP = A'$\n9.30 设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积）\n（1）求出 $V$ 的一组标准正交基；\n（2）设 $T$ 是一个 $n$ 阶实矩阵，$V$ 上的线性变换 $φ$ 定义为 $φ(A) = T’AT$ ，求证：$φ$ 是自伴随算子的充要条件是 $T$ 为对称矩阵 或者 反对称矩阵\n接下来我们来看正交矩阵的正交相似标准型的若干应用\n9.118 证明：（1）任一正交矩阵均可表示为不超过两个实对称矩阵之积\n（2）任意 $n$ 阶实矩阵均可表示为不超过 $3$ 个实对称矩阵之积.\n9.119 设 $A,B$ 为 $n$ 阶正交矩阵，求证：$|A| + |B| = 0$ 当且仅当 $n-r(A+B)$ 为奇数\n注：例题 $9.119$ 的直接推论是：若正交矩阵 $A,B$ 满足 $|A| + |B| = 0$ ，则 $|A+B| = 0$ . 这一结论也可由第 $2$ 章矩阵的技巧（类似于例题 $2.19$ 的讨论）来得到. 又因为正交矩阵行列式的值等于 $1$ 或者 $-1$ ，故例题 $9.119$ 的等价命题为 设 $A,B$ 为 $n$ 阶正交矩阵，则 $|A| = |B|$ ，当且仅当 $n - r(A + B)$ 为偶数\n9.120 设 $A$ 为 $n$ 阶正交矩阵，证明：$r(I_{n} - A) = r((I_{n} - A)^{2})$\n9.121 设 $φ$ 是 $n$ 维数欧氏空间 $V$ 上的正交变换，若 $det φ = 1$ ，则称 $φ$ 是一个旋转；若 $det φ = -1$ ，则称 $φ$ 是一个反射，求证：\n（1）奇数维的空间的选择必有保持不动的非零向量，即存在 $0 ≠ v ∈ V, φ(v) = v$\n（2）反射必有反向的非零向量，即存在 $0 ≠ v ∈ V, φ(v) = -v$\n小老弟，看我手指这是几🖖\n注意：我们来看一下二阶、三阶正交矩阵的几何意义，二阶正交矩阵 $A$ 按照行列式的值可分为两大类：若 $|A| = 1$ ， 则 $|A|= \\begin{pmatrix} cosθ \u0026 -sinθ\\\\ sinθ \u0026 cosθ \\end{pmatrix} $ 表示以原点为中心的某个角度的旋转；若 $|A| = -1$ ，则由例题 $9.121(2)$ 可知， $|A|= \\begin{pmatrix} cosθ \u0026 sinθ\\\\ sinθ \u0026 -cosθ \\end{pmatrix} $ 表示沿过原点的某条直线的反射. 由例题 $9.121$ 可知，三阶正交矩阵 $A$ 的正交相似标准型总可以选择为 $|A|= diag{ \\begin{pmatrix} cosθ \u0026 -sinθ\\\\ sinθ \u0026 cosθ \\end{pmatrix} ,|A|} $ 形式. 设 $U = L(e_{1},e_{2}),L = (e_{3})$ ，则当 $|A| = 1$ 时，正交变换是以 $L$ 为固定轴的旋转（投影在平面 $U$ 上是某个角度的旋转）；当 $|A| = -1$ 时，正交变换是关于平面 $U$ 的反射（即由 $e_{3}$ 定义的镜像变换）再复合以 $L$ 为固定轴的旋转\n9.122 设 $S = {n 阶实反对称矩阵 A}, T = {I_{n} + B 可逆的 n 阶正交矩阵 $B$}$ . 映射 $φ: S → T$ 定义为 $φ(A) = (I_{n} - A)(I_{n} + A)^{-1}$ ，映射 $ψ:T → S$ 定义为 $ψ(B) = (I_{n} - B)(I_{n} + B)^{-1}$ . 求证: $ψφ = I_{S},φψ = I_{T}$ ,即 $φψ$ 实现了集合 $S,T$ 之间的一一对应\n",
+  "wordCount" : "1604",
   "inLanguage": "zh",
   "datePublished": "2025-02-10T00:00:00Z",
   "dateModified": "2025-02-10T00:00:00Z",
@@ -276,7 +276,7 @@
     <h1 class="post-title entry-hint-parent">
       9.12 实正规矩阵的正交相似标准型
     </h1>
-    <div class="post-meta"><span title='2025-02-10 00:00:00 +0000 UTC'>2025-02-10</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;278 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2025-02-10 00:00:00 +0000 UTC'>2025-02-10</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1604 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -291,7 +291,27 @@
                         <a href="#-912-%e5%ae%9e%e6%ad%a3%e8%a7%84%e7%9f%a9%e9%98%b5%e7%9a%84%e6%ad%a3%e4%ba%a4%e7%9b%b8%e4%bc%bc%e6%a0%87%e5%87%86%e5%9e%8b" aria-label="$§$ 9.12 实正规矩阵的正交相似标准型">$§$ 9.12 实正规矩阵的正交相似标准型</a><ul>
                             
                     <li>
-                        <a href="#9114" aria-label="9.114">9.114</a>
+                        <a href="#9114" aria-label="9.114">9.114</a></li>
+                    <li>
+                        <a href="#845" aria-label="8.45">8.45</a></li>
+                    <li>
+                        <a href="#9115" aria-label="9.115">9.115</a></li>
+                    <li>
+                        <a href="#9116" aria-label="9.116">9.116</a></li>
+                    <li>
+                        <a href="#9117" aria-label="9.117">9.117</a></li>
+                    <li>
+                        <a href="#930" aria-label="9.30">9.30</a></li>
+                    <li>
+                        <a href="#9118" aria-label="9.118">9.118</a></li>
+                    <li>
+                        <a href="#9119" aria-label="9.119">9.119</a></li>
+                    <li>
+                        <a href="#9120" aria-label="9.120">9.120</a></li>
+                    <li>
+                        <a href="#9121" aria-label="9.121">9.121</a></li>
+                    <li>
+                        <a href="#9122" aria-label="9.122">9.122</a>
                     </li>
                 </ul>
                 </li>
@@ -370,6 +390,210 @@
 <p>上一节我们讨论了实正规算子和实正规矩阵的几何结构及其相关的应用，这一节将着重讨论实正规矩阵的正交相似标准型在矩阵理论中的一些应用.</p>
 <p>例题 $9.75$ 告诉我们，若 $A$ 是正定实对称矩阵，$B$ 是实对称矩阵，则存在可逆矩阵 $C$ ，使得 $C&rsquo;AC = I_{n}$ ，$C&rsquo;BC$ 是对角矩阵，这个结论称为同时合同对角化. 在 $§9.8$ 中，我们已看到同时合同对角化在处理实对称矩阵在处理实对称矩阵时的诸多应用. 类似地，若 $S$ 实反对称矩阵，则例题 $9.114$ 告诉我们存在可逆矩阵 $C$ ，使得 $C&rsquo;AC = I_{n}$ ，$C&rsquo;SC$ 是实对称矩阵的正交相似标准型，我们亦称之为同时合同对角化</p>
 <h3 id="9114">9.114<a hidden class="anchor" aria-hidden="true" href="#9114">#</a></h3>
+<p>设 $A$ 为 $n$ 阶正定实对称矩阵，$S$ 是同阶实反对称矩阵，求证：存在可逆矩阵 $C$ ，使得
+$$
+C&rsquo;AC = I_{n}, C&rsquo;SC = diag{
+\begin{pmatrix}
+0&amp;b_{1}\\
+-b_{1}&amp;0
+\end{pmatrix}
+,⋯,
+\begin{pmatrix}
+0&amp;b_{r}\\
+-b_{r}&amp;0
+\end{pmatrix}
+,0,⋯,0
+}
+\tag{9.17}
+$$
+其中 $b_{1},⋯,b_{r}$ 是非零实数</p>
+<hr>
+<p>同时合同标准型在处理实反对称矩阵时比较有用，我们来看三个典型例题</p>
+<h3 id="845">8.45<a hidden class="anchor" aria-hidden="true" href="#845">#</a></h3>
+<p>设 $A$ 为 $n$ 阶正定实对称矩阵，$S$ 是 $n$ 阶实反对称矩阵，求证：</p>
+<p>（1）$|A+S|≥|A| + |S|$，且等号成立当且仅当 $n ≤ 2$ 或 $n ≥ 3$ 时，$S = O$;</p>
+<p>（2）$|A+S|≥|A|$ ，且等号成立当且仅当 $S = O$</p>
+<h3 id="9115">9.115<a hidden class="anchor" aria-hidden="true" href="#9115">#</a></h3>
+<p>设 $n$ 阶实矩阵 $A$ 满足 $A + A&rsquo;$ 正定（即 $A$ 是亚正定阵），求证：
+$$
+|A+A&rsquo;|≤2^{n}|A|
+$$
+且等号成立的充要条件是 $A$ 为对称矩阵</p>
+<h3 id="9116">9.116<a hidden class="anchor" aria-hidden="true" href="#9116">#</a></h3>
+<p>设 $A,B$ 为 $n$ 阶实矩阵，其中 $A$ 的 $n$ 个特征值都是正实数，并且满足 $AB + BA&rsquo; =2AA&rsquo;$ ，证明：</p>
+<p>（1）$B$ 必为对称矩阵；</p>
+<p>（2）$A$ 为对称当且仅当 $A = B$ ，也当且仅当 $tr(B^{2}) = tr(AA&rsquo;)$;</p>
+<p>（3）$|B| ≥ |A|$ ，且等号成立的充要条件是 $A = B$</p>
+<h3 id="9117">9.117<a hidden class="anchor" aria-hidden="true" href="#9117">#</a></h3>
+<p>设 $A$ 为 $n$ 阶实正规矩阵，求证：存在特征值为 $1$ 或 $-1$ 的正交矩阵 $P$ ，使得 $P&rsquo;AP = A'$</p>
+<h3 id="930">9.30<a hidden class="anchor" aria-hidden="true" href="#930">#</a></h3>
+<p>设 $V$ 是 $n$ 阶实对称矩阵构成的欧氏空间（取 $Frobenius$ 内积）</p>
+<p>（1）求出 $V$ 的一组标准正交基；</p>
+<p>（2）设 $T$ 是一个 $n$ 阶实矩阵，$V$ 上的线性变换 $φ$ 定义为 $φ(A) = T&rsquo;AT$ ，求证：$φ$ 是自伴随算子的充要条件是 $T$ 为对称矩阵 或者 反对称矩阵</p>
+<hr>
+<p>接下来我们来看正交矩阵的正交相似标准型的若干应用</p>
+<h3 id="9118">9.118<a hidden class="anchor" aria-hidden="true" href="#9118">#</a></h3>
+<p>证明：（1）任一正交矩阵均可表示为不超过两个实对称矩阵之积</p>
+<p>（2）任意 $n$ 阶实矩阵均可表示为不超过 $3$ 个实对称矩阵之积.</p>
+<h3 id="9119">9.119<a hidden class="anchor" aria-hidden="true" href="#9119">#</a></h3>
+<p>设 $A,B$ 为 $n$ 阶正交矩阵，求证：$|A| + |B| = 0$ 当且仅当 $n-r(A+B)$ 为奇数</p>
+<p>注：例题 $9.119$ 的直接推论是：若正交矩阵 $A,B$ 满足 $|A| + |B| = 0$ ，则 $|A+B| = 0$ . 这一结论也可由第 $2$ 章矩阵的技巧（类似于例题 $2.19$ 的讨论）来得到. 又因为正交矩阵行列式的值等于 $1$ 或者 $-1$ ，故例题 $9.119$ 的等价命题为 设 $A,B$ 为 $n$ 阶正交矩阵，则 $|A| = |B|$ ，当且仅当 $n - r(A + B)$ 为偶数</p>
+<h3 id="9120">9.120<a hidden class="anchor" aria-hidden="true" href="#9120">#</a></h3>
+<p>设 $A$ 为 $n$ 阶正交矩阵，证明：$r(I_{n} - A) = r((I_{n} - A)^{2})$</p>
+<h3 id="9121">9.121<a hidden class="anchor" aria-hidden="true" href="#9121">#</a></h3>
+<p>设 $φ$ 是 $n$ 维数欧氏空间 $V$ 上的正交变换，若 $det φ = 1$ ，则称 $φ$ 是一个旋转；若 $det φ = -1$ ，则称 $φ$ 是一个反射，求证：</p>
+<p>（1）奇数维的空间的选择必有保持不动的非零向量，即存在 $0 ≠ v ∈ V, φ(v) = v$</p>
+<p>（2）反射必有反向的非零向量，即存在 $0 ≠ v ∈ V, φ(v) = -v$</p>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注意：我们来看一下二阶、三阶正交矩阵的几何意义，二阶正交矩阵 $A$ 按照行列式的值可分为两大类：若 $|A| = 1$ ，
+则
+$|A|=
+\begin{pmatrix}
+cosθ &amp; -sinθ\\
+sinθ &amp; cosθ
+\end{pmatrix}
+$
+表示以原点为中心的某个角度的旋转；若 $|A| = -1$ ，则由例题 $9.121(2)$ 可知，
+$|A|=
+\begin{pmatrix}
+cosθ &amp; sinθ\\
+sinθ &amp; -cosθ
+\end{pmatrix}
+$
+表示沿过原点的某条直线的反射. 由例题 $9.121$ 可知，三阶正交矩阵 $A$ 的正交相似标准型总可以选择为
+$|A|= diag{
+\begin{pmatrix}
+cosθ &amp; -sinθ\\
+sinθ &amp; cosθ
+\end{pmatrix}
+,|A|}
+$
+形式. 设 $U = L(e_{1},e_{2}),L = (e_{3})$ ，则当 $|A| = 1$ 时，正交变换是以 $L$ 为固定轴的旋转（投影在平面 $U$ 上是某个角度的旋转）；当 $|A| = -1$ 时，正交变换是关于平面 $U$ 的反射（即由 $e_{3}$ 定义的镜像变换）再复合以 $L$ 为固定轴的旋转</p></div>
+<h3 id="9122">9.122<a hidden class="anchor" aria-hidden="true" href="#9122">#</a></h3>
+<p>设 $S = {n 阶实反对称矩阵 A}, T = {I_{n} + B 可逆的 n 阶正交矩阵 $B$}$ . 映射 $φ: S → T$ 定义为 $φ(A) = (I_{n} - A)(I_{n} + A)^{-1}$ ，映射 $ψ:T → S$ 定义为 $ψ(B) = (I_{n} - B)(I_{n} + B)^{-1}$ . 求证: $ψφ = I_{S},φψ = I_{T}$ ,即 $φψ$ 实现了集合 $S,T$ 之间的一一对应</p>
 
 
   </div>
@@ -379,10 +603,10 @@
       <li><a href="https://GWblog.github.io/zh/tags/%E5%AE%9E%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5%E7%9A%84%E6%AD%A3%E4%BA%A4%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/">实正规矩阵的正交相似标准型</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://GWblog.github.io/zh/zh/friends/">
+  <a class="prev" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.13/">
     <span class="title">« 上一页</span>
     <br>
-    <span>friends</span>
+    <span>9.13 同时合同正交对角化与同时正交标准化</span>
   </a>
   <a class="next" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.11/">
     <span class="title">下一页 »</span>
