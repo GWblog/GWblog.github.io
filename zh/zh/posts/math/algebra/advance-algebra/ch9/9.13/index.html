@@ -111,8 +111,8 @@
   "keywords": [
     "同时合同正交对角化与同时正交标准化"
   ],
-  "articleBody": " $§$ 9.13 同时合同正交对角化与同时正交标准化 在 $§ 6.3$ 中我们讨论过乘法交换性诱导的同时上三角化和同时对角化的问题,这次我们将讨论这样两个问题:\n(1) 同时正交(酉)对角化 对实对称矩阵（复正规矩阵）$A$ 和 $B$ 何时存在正交矩阵(酉矩阵) $P$ ,使得 $P’AP$ 和 $P’BP$ 都是对角矩阵 ($\\overline{P}‘AP$ 和 $\\overline{P}‘BP$ 都是对角矩阵). 这个问题的几何版本是: 对欧氏空间上的自伴随算子(酉空间上的正规算子) $φ$ 和 $ψ$ ,该内积空间中何时存在一组由它们的公共特征向量构成的标准正交基. 例题 $9.124$ 回答了将这一结论推广到多个矩阵或线性变换的情形. 处理这类问题的关键是要找出线性变换的公共特征向量然后使用归纳法.\n(2) 同时正交标准化 对实正规矩阵 $A$ 和 $B$ 何时存在正交矩阵 $P$ 使得 $P’AP$ 和 $P’BP$ 都是正交相似标准型. 例题 $9.125$ 回答了这个问题,例题 $9.126$ 将这一结论推广到多个矩阵或线性变换的情形. 因为实矩阵未必有实特征值和实特征向量,所以我们采用实与复之间相互转化的方法来解决这个问题. 这也是解决实矩阵或者实空间问题的一个常用方法,在 $§ 9.11$ 的有关讨论中我们经常用到它\n",
-  "wordCount" : "428",
+  "articleBody": " $§$ 9.13 同时合同正交对角化与同时正交标准化 在 $§ 6.3$ 中我们讨论过乘法交换性诱导的同时上三角化和同时对角化的问题,这次我们将讨论这样两个问题:\n(1) 同时正交(酉)对角化 对实对称矩阵（复正规矩阵）$A$ 和 $B$ 何时存在正交矩阵(酉矩阵) $P$ ,使得 $P’AP$ 和 $P’BP$ 都是对角矩阵 ($\\overline{P}‘AP$ 和 $\\overline{P}‘BP$ 都是对角矩阵). 这个问题的几何版本是: 对欧氏空间上的自伴随算子(酉空间上的正规算子) $φ$ 和 $ψ$ ,该内积空间中何时存在一组由它们的公共特征向量构成的标准正交基. 例题 $9.124$ 回答了将这一结论推广到多个矩阵或线性变换的情形. 处理这类问题的关键是要找出线性变换的公共特征向量然后使用归纳法.\n(2) 同时正交标准化 对实正规矩阵 $A$ 和 $B$ 何时存在正交矩阵 $P$ 使得 $P’AP$ 和 $P’BP$ 都是正交相似标准型. 例题 $9.125$ 回答了这个问题,例题 $9.126$ 将这一结论推广到多个矩阵或线性变换的情形. 因为实矩阵未必有实特征值和实特征向量,所以我们采用实与复之间相互转化的方法来解决这个问题. 这也是解决实矩阵或者实空间问题的一个常用方法,在 $§ 9.11$ 的有关讨论中我们经常用到它\n9.123 设 $φ,ψ$ 是 $n$ 维欧式空间（酉空间）$V$ 上的两个自伴随算子 (正规算子) ,求证: $V$ 有一组由 $φ,ψ$ 的公共特征向量构成的标准正交基的充要条件是 $φψ = ψφ$\n小老弟，看我手指这是几🖖\n注意:例题 $9.123$ 还可以有以下两种证法: 或者仿照例题 $6.41$ 的证明思路进行讨论 (此时全空间等于特征子空间的正交直和), 或者直接利用例题 $6.41$ 的结论得到 $φ,ψ$ 的公共特征向量构成的一组基, 再用 $Gram-Schmidt$ 方法得到要求的标准正交基. 例题 $9.123$ 的代数版本是: $n$ 阶实对称矩阵 (复正规矩阵) $A,B$ 同时正交 (酉) 相似于对角矩阵的充要条件是 $AB = BA$ .下面的例题是 $9.123$ 关于个数的推广\n9.124 设 $A_{1},A_{2},⋯,A_{m}$ 是 $m$ 个实对称矩阵 (复正规矩阵) 且两两乘法可交换,求证: 存在正交矩阵 (酉矩阵) $P$ , 使得 $P’A_{i}P(\\overline{P}‘A_{i}P)$ 都是对角矩阵\n9.125 设 $A,B$ 是两个 $n$ 阶实正规矩阵且 $AB = BA$ , 求证: 存在正交矩阵 $P$ , 使得 $P’AP$ 和 $P’BP$ 同时为正交相似标准型。\n注意: 例题 $9.125$ 的几何版本是: 设 $φ,ψ$ 是 $n$ 维欧氏空间 $V$ 上的两个乘法可交换的正规算子, 则存在 $V$ 的一组标准正交基,使得 $φ,ψ$ 在这组基下的表示矩阵同时为正交相似标准型. 我们也可以沿着绿皮书教材中建立实正规算子正交相似标准型理论的主线,给出上述结论的纯几何证明. 下面的例题是例题 $9.125$ 关于个数的推广,其证明与 $9.125$ 的证明完全类似. 上面两个证明细节留给大家自行完成\n9.126 设 $A_{1},A_{2},⋯,A_{m}$ 是 $m$ 个实正规矩阵且两两乘法可交换, 求证: 存在正交矩阵 $P$ ,使得 $P’A_{i}P$ 同时为正交相似标准型\n下面我们来看同时正交对角化的几个应用\n9.67 9.68 9.70 当我们遇到复特征值和复特征向量时,我们可以把实矩阵看成是复矩阵来处理,这是我们的常用技巧之一. 因此,我们可以把实对称矩阵、实反对称矩阵和正交矩阵等实正规矩阵自然看成是复正规矩阵来处理, 这样便可以应用同时酉对角化的技巧\n8.44 上面这题还可以用同时正交标准化来解决\n9.71 在 $9.66$ 和 $9.107$ 中, 满足 $ωψ = φω$ 的极分解 $φ = ωφ$ 虽然不一定唯一 (比如当正规算子 $φ$ 不可逆时) , 但由例题 $9.124$ 和 $9.125$ 可知 $φ$ 的极分解一定是形如必要性证明中那样的构造. 我们把具体细节留给大家\n9.127 设 $A_{1},A_{2},⋯,A_{m}$ 是 $n$ 阶实对称矩阵,其中 $A_{1}$ 是正定阵,且对任意的 $2 ≤ i \u003c ≤ m, A_{i}A_{1}^{-1}A_{j}$ 都是对称矩阵. 求证:存在可逆矩阵 $C$ ,使得 $$ C’A_{1}C = I_{n}, C’A_{i}C = diag{λ_{i1},λ_{i2},⋯,λ_{in}}, 2≤i≤m $$ 其中 ${λ_{i1},λ_{i2},⋯,λ_{in}}$ 是 $A_{1}^{-1}A_{i}$ 的全体特征值\n9.128 设 $A$ 为 $n$ 阶正定实对称矩阵, $B,C$ 为 $n$ 阶半正定实对称矩阵,使得 $BA^{-1}C$ 是对称矩阵. 求证: $$ |A|·|A+B+C| ≤ |A+B|⋅|A+C|, \\tag{9.19} $$ 且等号成立的充要条件是 $BA^{-1}C = O$\n利用例题 $9.126$ ,还可以把同时合同标准化(即例题 $9.114$) 推广到多个矩阵的情形\n9.129 设 $A_{1}$ 为 $n$ 阶正定实对称矩阵,${A_{1},A_{2},⋯,A_{m}}$ 是 $n$ 阶实反对称矩阵,且对任意的 $2 ≤ i \u003c j ≤ m, A_{i}A_{1}^{-1}A_{j}$ 都是对称矩阵. 求证: 存在可逆矩阵 $C$ ,使得 $$ C’A_{1}C = I_{n}, C’A_{i}C = diag{ \\begin{pmatrix} 0 \u0026 b_{i1}\\\\ -b_{i1} \u0026 0 \\end{pmatrix} ,⋯, \\begin{pmatrix} 0 \u0026 b_{ir}\\\\ -b_{i1} \u0026 0 \\end{pmatrix} ,0,⋯,0 } , 2 ≤ i ≤ m $$\n9.130 设 $A$ 为 $n$ 阶正定实对称矩阵, $B,C$ 为 $n$ 阶实反对称矩阵,使得 $BA^{-1}C$ 是对称矩阵,求证: $$ |A|·|B+C| ≤ |A+B|⋅|A+C|, \\tag{9.20} $$ 且等号成立的充要条件是 $BA^{-1}C = -A$\n",
+  "wordCount" : "1739",
   "inLanguage": "zh",
   "datePublished": "2025-02-18T00:00:00Z",
   "dateModified": "2025-02-18T00:00:00Z",
@@ -276,7 +276,7 @@
     <h1 class="post-title entry-hint-parent">
       9.13 同时合同正交对角化与同时正交标准化
     </h1>
-    <div class="post-meta"><span title='2025-02-18 00:00:00 +0000 UTC'>2025-02-18</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;428 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2025-02-18 00:00:00 +0000 UTC'>2025-02-18</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1739 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -288,8 +288,37 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#-913-%e5%90%8c%e6%97%b6%e5%90%88%e5%90%8c%e6%ad%a3%e4%ba%a4%e5%af%b9%e8%a7%92%e5%8c%96%e4%b8%8e%e5%90%8c%e6%97%b6%e6%ad%a3%e4%ba%a4%e6%a0%87%e5%87%86%e5%8c%96" aria-label="$§$ 9.13 同时合同正交对角化与同时正交标准化">$§$ 9.13 同时合同正交对角化与同时正交标准化</a>
+                        <a href="#-913-%e5%90%8c%e6%97%b6%e5%90%88%e5%90%8c%e6%ad%a3%e4%ba%a4%e5%af%b9%e8%a7%92%e5%8c%96%e4%b8%8e%e5%90%8c%e6%97%b6%e6%ad%a3%e4%ba%a4%e6%a0%87%e5%87%86%e5%8c%96" aria-label="$§$ 9.13 同时合同正交对角化与同时正交标准化">$§$ 9.13 同时合同正交对角化与同时正交标准化</a><ul>
+                            
+                    <li>
+                        <a href="#9123" aria-label="9.123">9.123</a></li>
+                    <li>
+                        <a href="#9124" aria-label="9.124">9.124</a></li>
+                    <li>
+                        <a href="#9125" aria-label="9.125">9.125</a></li>
+                    <li>
+                        <a href="#9126" aria-label="9.126">9.126</a></li>
+                    <li>
+                        <a href="#967" aria-label="9.67">9.67</a></li>
+                    <li>
+                        <a href="#968" aria-label="9.68">9.68</a></li>
+                    <li>
+                        <a href="#970" aria-label="9.70">9.70</a></li>
+                    <li>
+                        <a href="#844" aria-label="8.44">8.44</a></li>
+                    <li>
+                        <a href="#971" aria-label="9.71">9.71</a></li>
+                    <li>
+                        <a href="#9127" aria-label="9.127">9.127</a></li>
+                    <li>
+                        <a href="#9128" aria-label="9.128">9.128</a></li>
+                    <li>
+                        <a href="#9129" aria-label="9.129">9.129</a></li>
+                    <li>
+                        <a href="#9130" aria-label="9.130">9.130</a>
                     </li>
+                </ul>
+                </li>
                 </ul>
             </div>
         </details>
@@ -365,6 +394,187 @@
 <p>在 $§ 6.3$ 中我们讨论过乘法交换性诱导的同时上三角化和同时对角化的问题,这次我们将讨论这样两个问题:</p>
 <p>(1) <strong>同时正交(酉)对角化</strong>   对实对称矩阵（复正规矩阵）$A$ 和 $B$ 何时存在正交矩阵(酉矩阵) $P$ ,使得 $P&rsquo;AP$ 和 $P&rsquo;BP$ 都是对角矩阵 ($\overline{P}&lsquo;AP$ 和 $\overline{P}&lsquo;BP$ 都是对角矩阵). 这个问题的几何版本是: 对欧氏空间上的自伴随算子(酉空间上的正规算子) $φ$ 和 $ψ$ ,该内积空间中何时存在一组由它们的公共特征向量构成的标准正交基. 例题 $9.124$ 回答了将这一结论推广到多个矩阵或线性变换的情形. 处理这类问题的关键是要找出线性变换的公共特征向量然后使用归纳法.</p>
 <p>(2) <strong>同时正交标准化</strong>  对实正规矩阵 $A$ 和 $B$ 何时存在正交矩阵 $P$ 使得 $P&rsquo;AP$ 和 $P&rsquo;BP$ 都是正交相似标准型. 例题 $9.125$ 回答了这个问题,例题 $9.126$ 将这一结论推广到多个矩阵或线性变换的情形. 因为实矩阵未必有实特征值和实特征向量,所以我们采用实与复之间相互转化的方法来解决这个问题. 这也是解决实矩阵或者实空间问题的一个常用方法,在 $§ 9.11$ 的有关讨论中我们经常用到它</p>
+<h3 id="9123">9.123<a hidden class="anchor" aria-hidden="true" href="#9123">#</a></h3>
+<p>设 $φ,ψ$ 是 $n$ 维欧式空间（酉空间）$V$ 上的两个自伴随算子 (正规算子) ,求证: $V$ 有一组由 $φ,ψ$ 的公共特征向量构成的标准正交基的充要条件是 $φψ = ψφ$</p>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注意:例题 $9.123$ 还可以有以下两种证法: 或者仿照例题 $6.41$ 的证明思路进行讨论 (此时全空间等于特征子空间的正交直和), 或者直接利用例题 $6.41$ 的结论得到 $φ,ψ$ 的公共特征向量构成的一组基, 再用 $Gram-Schmidt$ 方法得到要求的标准正交基. 例题 $9.123$ 的代数版本是: $n$ 阶实对称矩阵 (复正规矩阵) $A,B$ 同时正交 (酉) 相似于对角矩阵的充要条件是 $AB = BA$ .下面的例题是 $9.123$ 关于个数的推广</p></div>
+<h3 id="9124">9.124<a hidden class="anchor" aria-hidden="true" href="#9124">#</a></h3>
+<p>设 $A_{1},A_{2},⋯,A_{m}$ 是 $m$ 个实对称矩阵 (复正规矩阵) 且两两乘法可交换,求证: 存在正交矩阵 (酉矩阵) $P$ , 使得 $P&rsquo;A_{i}P(\overline{P}&lsquo;A_{i}P)$ 都是对角矩阵</p>
+<h3 id="9125">9.125<a hidden class="anchor" aria-hidden="true" href="#9125">#</a></h3>
+<p>设 $A,B$ 是两个 $n$ 阶实正规矩阵且 $AB = BA$ , 求证: 存在正交矩阵 $P$ , 使得 $P&rsquo;AP$ 和 $P&rsquo;BP$ 同时为正交相似标准型。</p>
+<p>注意: 例题 $9.125$ 的几何版本是: 设 $φ,ψ$ 是 $n$ 维欧氏空间 $V$ 上的两个乘法可交换的正规算子, 则存在 $V$ 的一组标准正交基,使得 $φ,ψ$ 在这组基下的表示矩阵同时为正交相似标准型. 我们也可以沿着绿皮书教材中建立实正规算子正交相似标准型理论的主线,给出上述结论的纯几何证明. 下面的例题是例题 $9.125$ 关于个数的推广,其证明与 $9.125$ 的证明完全类似. 上面两个证明细节留给大家自行完成</p>
+<h3 id="9126">9.126<a hidden class="anchor" aria-hidden="true" href="#9126">#</a></h3>
+<p>设 $A_{1},A_{2},⋯,A_{m}$ 是 $m$ 个实正规矩阵且两两乘法可交换, 求证: 存在正交矩阵 $P$ ,使得 $P&rsquo;A_{i}P$ 同时为正交相似标准型</p>
+<hr>
+<p>下面我们来看同时正交对角化的几个应用</p>
+<h3 id="967">9.67<a hidden class="anchor" aria-hidden="true" href="#967">#</a></h3>
+<h3 id="968">9.68<a hidden class="anchor" aria-hidden="true" href="#968">#</a></h3>
+<h3 id="970">9.70<a hidden class="anchor" aria-hidden="true" href="#970">#</a></h3>
+<p>当我们遇到复特征值和复特征向量时,我们可以把实矩阵看成是复矩阵来处理,这是我们的常用技巧之一. 因此,我们可以把实对称矩阵、实反对称矩阵和正交矩阵等实正规矩阵自然看成是复正规矩阵来处理, 这样便可以应用同时酉对角化的技巧</p>
+<h3 id="844">8.44<a hidden class="anchor" aria-hidden="true" href="#844">#</a></h3>
+<p>上面这题还可以用同时正交标准化来解决</p>
+<h3 id="971">9.71<a hidden class="anchor" aria-hidden="true" href="#971">#</a></h3>
+<p>在 $9.66$ 和 $9.107$ 中, 满足 $ωψ = φω$ 的极分解 $φ = ωφ$ 虽然不一定唯一 (比如当正规算子 $φ$ 不可逆时) , 但由例题 $9.124$ 和 $9.125$ 可知 $φ$ 的极分解一定是形如必要性证明中那样的构造. 我们把具体细节留给大家</p>
+<h3 id="9127">9.127<a hidden class="anchor" aria-hidden="true" href="#9127">#</a></h3>
+<p>设  $A_{1},A_{2},⋯,A_{m}$ 是 $n$ 阶实对称矩阵,其中 $A_{1}$ 是正定阵,且对任意的 $2 ≤ i &lt; ≤ m, A_{i}A_{1}^{-1}A_{j}$ 都是对称矩阵. 求证:存在可逆矩阵 $C$ ,使得
+$$
+C&rsquo;A_{1}C = I_{n}, C&rsquo;A_{i}C = diag{λ_{i1},λ_{i2},⋯,λ_{in}}, 2≤i≤m
+$$
+其中 ${λ_{i1},λ_{i2},⋯,λ_{in}}$ 是 $A_{1}^{-1}A_{i}$ 的全体特征值</p>
+<h3 id="9128">9.128<a hidden class="anchor" aria-hidden="true" href="#9128">#</a></h3>
+<p>设 $A$ 为 $n$ 阶正定实对称矩阵, $B,C$ 为 $n$ 阶半正定实对称矩阵,使得 $BA^{-1}C$ 是对称矩阵. 求证:
+$$
+|A|·|A+B+C| ≤ |A+B|⋅|A+C|, \tag{9.19}
+$$
+且等号成立的充要条件是 $BA^{-1}C = O$</p>
+<hr>
+<p>利用例题 $9.126$ ,还可以把同时合同标准化(即例题 $9.114$) 推广到多个矩阵的情形</p>
+<h3 id="9129">9.129<a hidden class="anchor" aria-hidden="true" href="#9129">#</a></h3>
+<p>设 $A_{1}$ 为 $n$ 阶正定实对称矩阵,${A_{1},A_{2},⋯,A_{m}}$ 是 $n$ 阶实反对称矩阵,且对任意的 $2 ≤ i &lt; j ≤ m, A_{i}A_{1}^{-1}A_{j}$ 都是对称矩阵. 求证: 存在可逆矩阵 $C$ ,使得
+$$
+C&rsquo;A_{1}C = I_{n}, C&rsquo;A_{i}C = diag{
+\begin{pmatrix}
+0 &amp; b_{i1}\\
+-b_{i1} &amp; 0
+\end{pmatrix}
+,⋯,
+\begin{pmatrix}
+0 &amp; b_{ir}\\
+-b_{i1} &amp; 0
+\end{pmatrix}
+,0,⋯,0
+}
+, 2 ≤ i ≤ m
+$$</p>
+<h3 id="9130">9.130<a hidden class="anchor" aria-hidden="true" href="#9130">#</a></h3>
+<p>设 $A$ 为 $n$ 阶正定实对称矩阵, $B,C$ 为 $n$ 阶实反对称矩阵,使得 $BA^{-1}C$ 是对称矩阵,求证:
+$$
+|A|·|B+C| ≤ |A+B|⋅|A+C|, \tag{9.20}
+$$
+且等号成立的充要条件是 $BA^{-1}C = -A$</p>
 
 
   </div>
