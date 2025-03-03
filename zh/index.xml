@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -43,6 +43,20 @@ A funny guy</description>
       <guid>https://GWblog.github.io/zh/zh/friends/</guid>
       <description>Tony
 A funny guy</description>
+    </item>
+    <item>
+      <title>$§$ 10 双线性型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/10/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/10/</guid>
+      <description>$§$ 10 双线性型 线性空间的对偶空间是一个重要的概念. 他在后面的专业课程学习以及物理学等领域有着广泛的应用. 通常的高等代数课只讲授数域上的有限</description>
+    </item>
+    <item>
+      <title>$§$ 10 双线性型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</guid>
+      <description>$§$ 10 双线性型 线性空间的对偶空间是一个重要的概念. 他在后面的专业课程学习以及物理学等领域有着广泛的应用. 通常的高等代数课只讲授数域上的有限</description>
     </item>
     <item>
       <title>9.13 同时合同正交对角化与同时正交标准化</title>
@@ -421,6 +435,20 @@ A funny guy</description>
       <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch7/7.7/</guid>
       <description>$§$ 7.7 过渡矩阵的求法 在 $\S 6.4$ 中，我们介绍了对于可对角化矩阵 $A$ ，如何求过渡矩阵 $P$ 使得 $P^{-1}AP$ 是对角矩阵. 现在我们要介绍对一般的矩阵 $A$ （未必可对角化）</description>
+    </item>
+    <item>
+      <title>奖欲</title>
+      <link>https://GWblog.github.io/zh/posts/think/lust-copy/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/think/lust-copy/</guid>
+      <description>天文 信达小黑 - 2k 赤道仪 - heq5 - 5k 龟 锯缘龟 - 苗子 - 200~500 鹰嘴 - 苗子 - 600~900 表 卡西欧 - 初代大泥王 - GWG-B1000 - 3k±100 卡西欧 - 三代大泥王 - GWG-B1000-1A - 4k±100 西铁</description>
+    </item>
+    <item>
+      <title>奖欲</title>
+      <link>https://GWblog.github.io/zh/zh/posts/think/lust-copy/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/think/lust-copy/</guid>
+      <description>天文 信达小黑 - 2k 赤道仪 - heq5 - 5k 龟 锯缘龟 - 苗子 - 200~500 鹰嘴 - 苗子 - 600~900 表 卡西欧 - 初代大泥王 - GWG-B1000 - 3k±100 卡西欧 - 三代大泥王 - GWG-B1000-1A - 4k±100 西铁</description>
     </item>
     <item>
       <title>奖欲</title>

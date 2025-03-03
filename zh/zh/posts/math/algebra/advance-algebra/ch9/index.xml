@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>$§$ 10 双线性型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</guid>
+      <description>$§$ 10 双线性型 线性空间的对偶空间是一个重要的概念. 他在后面的专业课程学习以及物理学等领域有着广泛的应用. 通常的高等代数课只讲授数域上的有限</description>
+    </item>
     <item>
       <title>9.13 同时合同正交对角化与同时正交标准化</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.13/</link>

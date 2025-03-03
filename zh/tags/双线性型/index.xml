@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>双线性型 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%8F%8C%E7%BA%BF%E6%80%A7%E5%9E%8B/</link>
+    <description>Recent content in 双线性型 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%8F%8C%E7%BA%BF%E6%80%A7%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>$§$ 10 双线性型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/10/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/10/</guid>
+      <description>$§$ 10 双线性型 线性空间的对偶空间是一个重要的概念. 他在后面的专业课程学习以及物理学等领域有着广泛的应用. 通常的高等代数课只讲授数域上的有限</description>
+    </item>
+    <item>
+      <title>$§$ 10 双线性型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/10/</guid>
+      <description>$§$ 10 双线性型 线性空间的对偶空间是一个重要的概念. 他在后面的专业课程学习以及物理学等领域有着广泛的应用. 通常的高等代数课只讲授数域上的有限</description>
+    </item>
+  </channel>
+</rss>
