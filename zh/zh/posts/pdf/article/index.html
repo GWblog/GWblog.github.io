@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>pdf | 避风港</title>
+<title>文章 | 避风港</title>
 <meta name="keywords" content="">
-<meta name="description" content="一些文件">
+<meta name="description" content="article">
 <meta name="author" content="G.W">
-<link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/pdf/">
+<link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/pdf/article/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/zh/posts/pdf/index.xml">
-<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/zh/posts/pdf/">
+<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/zh/posts/pdf/article/index.xml">
+<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/zh/posts/pdf/article/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,16 +56,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="pdf" />
-<meta property="og:description" content="一些文件" />
+</noscript><meta property="og:title" content="文章" />
+<meta property="og:description" content="article" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/pdf/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
+<meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/pdf/article/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="pdf"/>
-<meta name="twitter:description" content="一些文件"/>
+<meta name="twitter:title" content="文章"/>
+<meta name="twitter:description" content="article"/>
 
 
 <script type="application/ld+json">
@@ -83,7 +83,13 @@
       "@type": "ListItem",
       "position":  2 ,
       "name": "pdf",
-      "item": "https://GWblog.github.io/zh/zh/posts/pdf/"
+      "item": "https://GWblog.github.io/zh/posts/pdf/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "文章",
+      "item": "https://GWblog.github.io/zh/zh/posts/pdf/article/"
     }
   ]
 }
@@ -225,8 +231,8 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    pdf
-    <a href="/zh/zh/posts/pdf/index.xml" title="RSS" aria-label="RSS">
+    文章
+    <a href="/zh/zh/posts/pdf/article/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -236,53 +242,260 @@
     </a>
   </h1>
   <div class="post-description">
-    一些文件
+    article
   </div>
 </header>
-<div class="post-content"><img loading="lazy" alt="" class="x-random-img "
+<div class="post-content"><script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+
+<style>
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
      
-     
-     
-/>
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  </style><div class="embed-pdf-container" id="embed-pdf-container-500ba3ab">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-500ba3ab">
+        <div class="pdf-loading" id="pdf-loading-500ba3ab"></div>
+    </div>
+    <div id="overlayText">
+      <a href="./education_llm.pdf" aria-label="Download" download>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+        </svg>
+      </a>
+    </div>
+    <canvas class="pdf-canvas" id="pdf-canvas-500ba3ab"></canvas>
+</div>
+
+<div class="pdf-paginator" id="pdf-paginator-500ba3ab">
+    <button id="pdf-prev-500ba3ab">Previous</button>
+    <button id="pdf-next-500ba3ab">Next</button> &nbsp; &nbsp;
+    <span>
+      <span class="pdf-pagenum" id="pdf-pagenum-500ba3ab"></span> / <span class="pdf-pagecount" id="pdf-pagecount-500ba3ab"></span>
+    </span>
+    <a class="pdf-source" id="pdf-source-500ba3ab" href="./education_llm.pdf">[pdf]</a>
+</div>
+
+<noscript>
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-500ba3ab" href="./education_llm.pdf">here</a>.
+</noscript>
+
+<script type="text/javascript">
+    (function(){
+    var url = '.\/education_llm.pdf';
+
+    var hidePaginator = "" === "true";
+    var hideLoader = "" === "true";
+    var selectedPageNum = parseInt("") || 1;
+
+    
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/GWblog.github.io\/" + 'js/pdf-js/build/pdf.worker.js';
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById('pdf-canvas-500ba3ab'),
+        ctx = canvas.getContext('2d'),
+        paginator = document.getElementById("pdf-paginator-500ba3ab"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-500ba3ab');
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById('pdf-pagenum-500ba3ab').textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = 'none';
+      canvas.style.display = 'block';
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = 'flex';
+      canvas.style.display = 'none';
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = 'block';
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-prev-500ba3ab').addEventListener('click', onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-next-500ba3ab').addEventListener('click', onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById('pdf-pagecount-500ba3ab').textContent = numPages;
+
+      
+      if(pageNum > numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+</script>
+
 
 
 </div>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">algebra
-    </h2>
-  </header>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;11 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to algebra" href="https://GWblog.github.io/zh/zh/posts/pdf/algebra/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">analysis
-    </h2>
-  </header>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;11 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to analysis" href="https://GWblog.github.io/zh/zh/posts/pdf/analysis/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">简历
-    </h2>
-  </header>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;11 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 简历" href="https://GWblog.github.io/zh/zh/posts/pdf/resume/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">文章
-    </h2>
-  </header>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;11 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 文章" href="https://GWblog.github.io/zh/zh/posts/pdf/article/"></a>
-</article>
     </main>
     
 <footer class="footer">
