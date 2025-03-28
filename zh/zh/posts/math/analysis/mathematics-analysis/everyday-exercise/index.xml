@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>每日练习 on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/analysis/mathematics-analysis/everyday-exercise/</link>
+    <description>Recent content in 每日练习 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/analysis/mathematics-analysis/everyday-exercise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每日练习</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/analysis/mathematics-analysis/everyday-exercise/exercise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/analysis/mathematics-analysis/everyday-exercise/exercise/</guid>
+      <description>函数极限 03.18 等价无穷小与洛必达法则</description>
+    </item>
+  </channel>
+</rss>

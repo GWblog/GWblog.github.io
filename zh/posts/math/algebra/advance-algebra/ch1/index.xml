@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 2 on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch1/</link>
+    <description>Recent content in chapter 2 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>行列式</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch1/ch1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch1/ch1/</guid>
+      <description>在一开始，我们通过解二元一次方程组来引入二阶行列式，并且通过直接引入行列式的8条性质来铺垫 上三角行列式的值其对角线元素之积. 行列式的某行或某</description>
+    </item>
+  </channel>
+</rss>

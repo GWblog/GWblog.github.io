@@ -105,8 +105,8 @@
   "keywords": [
     
   ],
-  "articleBody": " 原文下载可以去搜索出版公司或者原作者博客，或者移步本博客的pdf界面,版权归原作者所有\nGenerative AI Can Harm Learning Hamsa Bastani,1∗ Osbert Bastani,2∗ Alp Sungu,1∗† Haosen Ge,3 ̈Ozge Kabakcı,4 Rei Mariman\nGenerative artificial intelligence (AI) is poised to revolutionize how humans work, and has already demonstrated promise in significantly improving human productivity. However, a key remaining question is how generative AI affects learning, namely, how humans acquire new skills as they perform tasks. This kind of skill learning is critical to long-term productivity gains, especially in domains where generative AI is fallible and human experts must check its outputs. We study the impact of generative AI, specifically OpenAI’s GPT4, on human learning in the context of math classes at a high school. In a field experiment involving nearly a thousand students, we have deployed and evaluated two GPT based tutors, one that mimics a standard ChatGPT interface (called GPT Base) and one with prompts designed to safeguard learning (called GPT Tutor). These tutors comprise about 15% of the curriculum in each of three grades. Consistent with prior work, our results show that ac-\n",
-  "wordCount" : "257",
+  "articleBody": " 原文下载可以去搜索出版公司或者原作者博客，或者移步本博客的pdf界面,版权归原作者所有\nGenerative AI Can Harm Learning Hamsa Bastani,1∗ Osbert Bastani,2∗ Alp Sungu,1∗† Haosen Ge,3 ̈Ozge Kabakcı,4 Rei Mariman\nGenerative artificial intelligence (AI) is poised to revolutionize how humans work, and has already demonstrated promise in significantly improving human productivity. However, a key remaining question is how generative AI affects learning, namely, how humans acquire new skills as they perform tasks. This kind of skill learning is critical to long-term productivity gains, especially in domains where generative AI is fallible and human experts must check its outputs. We study the impact of generative AI, specifically OpenAI’s GPT4, on human learning in the context of math classes at a high school. In a field experiment involving nearly a thousand students, we have deployed and evaluated two GPT based tutors, one that mimics a standard ChatGPT interface (called GPT Base) and one with prompts designed to safeguard learning (called GPT Tutor). These tutors comprise about 15% of the curriculum in each of three grades. Consistent with prior work, our results show that access to GPT-4 significantly improves performance (48% improvement for GPT Base and 127% for GPT Tutor). However, we additionally find that when ac- cess is subsequently taken away, students actually perform worse than those who never had access (17% reduction for GPT Base). That is, access to GPT-4 can harm educational outcomes. These negative learning effects are largely mitigated by the safeguards included in GPT Tutor. Our results suggest that students attempt to use GPT-4 as a “crutch” during practice problem sessions, and when successful, perform worse on their own. Thus, to maintain long-term productivity, we must be cautious when deploying generative AI to ensure hu- mans continue to learn critical skills\nintroduction Generative AI, such as OpenAI’s ChatGPT, has rapidly emerged as a disruptive technology capable of achieving human-level performance on a broad range of tasks (1–6). In many ap- plications, they are expected to augment humans to help them perform tasks effectively and efficiently (7). Recent studies have sought to better understand how humans work in collabo- ration with these tools (8–10). Broadly speaking, these studies have focused on productivity, finding that workers can perform knowledge-intensive tasks significantly more efficiently when given access to generative AI.\nHowever, a key question that remains is how generative AI affects how humans learn novel skills, both in educational settings and through the course of performing their jobs. This process of skill acquisition is referred to as human capital development, and is critical for safeguard- ing productivity in the long term (11). When technology automates a task, humans can miss out on valuable experience performing that task. As a consequence, such a technology may induce a tradeoff where they improve performance on average, but introduce new failure cases due to reduced human skill. For example, overreliance on autopilot led the Federal Aviation Administration to recommend that pilots minimize their use of this technology (12). Their pre- cautionary guidance ensures that pilots have the necessary skills to maintain safety in situations where autopilot fails to function correctly. Furthermore, understanding the impact of generative AI on human learning is especially im- portant due to the inconsistent reliability of this technology across different tasks. For instance, while generative AI has demonstrated tremendous capabilities such as strong performance on medical exams (3) and competitive programming (4), it can be hard for a user to predict whether it will perform well on a new but similar task. This phenomenon has been called the jagged frontier (10), suggesting that the boundary of the capabilities of generative AI is jagged and un- predictable. Since it is difficult for workers to know beforehand whether generative AI can solve a task correctly, they must vigilantly check its outputs and fix any issues present. However, if they do not learn the underlying skills, they may lack the expertise required to do so.\nIn this paper, we aim to shed light on how generative AI affects learning. An important distinction between generative AI and many other technologies is that, beyond helping humans complete tasks, it can also serve as a source of knowledge. While generative AI has the potential to inhibit learning, it also has tremendous potential to enhance learning by providing easy access to a vast amount of knowledge (e.g., via personalized tutoring (13–18)). For instance, a student or worker might ask ChatGPT to explain complex concepts or clarify misunderstandings. Thus, we are especially interested in whether generative AI can improve human performance while facilitating learning. A natural setting for studying these effects is in education, where students are taught fundamental skills such as math and science. On one hand, generative AI can be a valuable tool to aid student learning by clarifying misunderstandings; on the other, overreliance on asking generative AI for help runs the risk of inhibiting learning.\nTo study these questions, we collaborated with a high school in Turkey to conduct a largescale randomized controlled trial (RCT) evaluating the impact of GPT-4 based tutors on student learning.1 Specifically, focusing on mathematics, we study the impact of GPT-4 based tutors on in-class study sessions designed to help students review material previously covered in the course. Each study session proceeds in two phases. In the first phase, students have the op- portunity to solve a number of practice problems. In this phase, students are given access to standard resources (their course notes and the course textbook), as well as additional generative AI resources determined based on a randomly assigned arm; the arms are: (i) access to a chat interface based on GPT-4, similar to ChatGPT (called GPT Base), (ii) access to a specialized chat interface built on GPT-4 using prompt engineering best practices and teacher input (called GPT Tutor),2 and (iii) no access to generative AI resources. In the second phase, students must complete an exam on their own without access to any resources.\nOur main results are two-fold. First, students in the GPT Tutor (resp., GPT Base) arm per- form 127% (resp., 48%) better on the practice problems compared to students in the control arm. This finding is consistent with prior work on the benefits of ChatGPT in improving human abilities on a variety of tasks. Second, on the exam, students in the GPT Base arm perform statistically significantly worse than students in the control arm by 17%; this negative effect is essentially eradicated in the GPT Tutor arm, though we still do not observe a positive ef- fect. These results suggest that while access to generative AI can improve performance, it can substantially inhibit learning. An analysis of student interactions shows that students often use GPT Base as a “crutch” by asking for and copying solutions (although they do not perceive any reduction in their learning or subsequent performance as a consequence of this behavior), but they use GPT Tutor in more substantive ways like asking for help or independently attempting answers. Our results have significant implications for tools based on generative AI—while such tools have the potential to improve human performance, they must be deployed with appropriate guardrails when learning is important.\n2. experimental design 3. main results ",
+  "wordCount" : "1313",
   "inLanguage": "zh",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -270,7 +270,7 @@
     <h1 class="post-title entry-hint-parent">
       Generative AI Can Harm Learning
     </h1>
-    <div class="post-meta">1 分钟&nbsp;·&nbsp;257 字&nbsp;·&nbsp;G.W
+    <div class="post-meta">3 分钟&nbsp;·&nbsp;1313 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -282,7 +282,15 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#generative-ai-can-harm-learning" aria-label="Generative AI Can Harm Learning">Generative AI Can Harm Learning</a>
+                        <a href="#generative-ai-can-harm-learning" aria-label="Generative AI Can Harm Learning">Generative AI Can Harm Learning</a><ul>
+                            
+                    <li>
+                        <a href="#introduction" aria-label="introduction">introduction</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#2-experimental-design" aria-label="2. experimental design">2. experimental design</a></li>
+                    <li>
+                        <a href="#3-main-results" aria-label="3. main results">3. main results</a>
                     </li>
                 </ul>
             </div>
@@ -360,7 +368,79 @@
 <p>Hamsa Bastani,1∗ Osbert Bastani,2∗ Alp Sungu,1∗†
 Haosen Ge,3  ̈Ozge Kabakcı,4 Rei Mariman</p>
 <p>Generative artificial intelligence (AI) is poised to revolutionize how humans work, and has already demonstrated promise in significantly improving human productivity. However, a key remaining question is how generative AI affects learning, namely, how humans acquire new skills as they perform tasks.
-This kind of skill learning is critical to long-term productivity gains, especially in domains where generative AI is fallible and human experts must check its outputs. We study the impact of generative AI, specifically OpenAI’s GPT4, on human learning in the context of math classes at a high school. In a field experiment involving nearly a thousand students, we have deployed and evaluated two GPT based tutors, one that mimics a standard ChatGPT interface (called GPT Base) and one with prompts designed to safeguard learning (called GPT Tutor). These tutors comprise about 15% of the curriculum in each of three grades. Consistent with prior work, our results show that ac-</p>
+This kind of skill learning is critical to long-term productivity gains, especially in domains where generative AI is fallible and human experts must check its outputs. We study the impact of generative AI, specifically OpenAI’s GPT4, on human learning in the context of math classes at a high school. In a field experiment involving nearly a thousand students, we have deployed and evaluated two GPT based tutors, one that mimics a standard ChatGPT interface (called GPT Base) and one with prompts designed to safeguard learning (called GPT Tutor). These tutors comprise about 15% of the curriculum in each of three grades. Consistent with prior work, our results show that access to GPT-4 significantly improves performance (48% improvement for GPT
+Base and 127% for GPT Tutor). However, we additionally find that when ac-
+cess is subsequently taken away, students actually perform worse than those
+who never had access (17% reduction for GPT Base). That is, access to GPT-4
+can harm educational outcomes. These negative learning effects are largely
+mitigated by the safeguards included in GPT Tutor. Our results suggest that
+students attempt to use GPT-4 as a “crutch” during practice problem sessions,
+and when successful, perform worse on their own. Thus, to maintain long-term
+productivity, we must be cautious when deploying generative AI to ensure hu-
+mans continue to learn critical skills</p>
+<h3 id="introduction">introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h3>
+<p>Generative AI, such as OpenAI’s ChatGPT, has rapidly emerged as a disruptive technology
+capable of achieving human-level performance on a broad range of tasks (1–6). In many ap-
+plications, they are expected to augment humans to help them perform tasks effectively and
+efficiently (7). Recent studies have sought to better understand how humans work in collabo-
+ration with these tools (8–10). Broadly speaking, these studies have focused on productivity,
+finding that workers can perform knowledge-intensive tasks significantly more efficiently when
+given access to generative AI.</p>
+<p>However, a key question that remains is how generative AI affects how humans learn novel
+skills, both in educational settings and through the course of performing their jobs. This process
+of skill acquisition is referred to as human capital development, and is critical for safeguard-
+ing productivity in the long term (11). When technology automates a task, humans can miss
+out on valuable experience performing that task. As a consequence, such a technology may
+induce a tradeoff where they improve performance on average, but introduce new failure cases due to reduced human skill. For example, overreliance on autopilot led the Federal Aviation
+Administration to recommend that pilots minimize their use of this technology (12). Their pre-
+cautionary guidance ensures that pilots have the necessary skills to maintain safety in situations
+where autopilot fails to function correctly.
+Furthermore, understanding the impact of generative AI on human learning is especially im-
+portant due to the inconsistent reliability of this technology across different tasks. For instance,
+while generative AI has demonstrated tremendous capabilities such as strong performance on
+medical exams (3) and competitive programming (4), it can be hard for a user to predict whether
+it will perform well on a new but similar task. This phenomenon has been called the <strong>jagged
+frontier</strong> (10), suggesting that the boundary of the capabilities of generative AI is jagged and un-
+predictable. Since it is difficult for workers to know beforehand whether generative AI can solve
+a task correctly, they must vigilantly check its outputs and fix any issues present. However, if
+they do not learn the underlying skills, they may lack the expertise required to do so.</p>
+<p>In this paper, we aim to shed light on how generative AI affects learning. An important
+distinction between generative AI and many other technologies is that, beyond helping humans
+complete tasks, it can also serve as a source of knowledge. While generative AI has the potential
+to inhibit learning, it also has tremendous potential to enhance learning by providing easy access
+to a vast amount of knowledge (e.g., via personalized tutoring (13–18)). For instance, a student
+or worker might ask ChatGPT to explain complex concepts or clarify misunderstandings. Thus,
+we are especially interested in whether generative AI can improve human performance while
+facilitating learning. A natural setting for studying these effects is in education, where students
+are taught fundamental skills such as math and science. On one hand, generative AI can be a
+valuable tool to aid student learning by clarifying misunderstandings; on the other, overreliance
+on asking generative AI for help runs the risk of inhibiting learning.</p>
+<p>To study these questions, we collaborated with a high school in Turkey to conduct a largescale randomized controlled trial (RCT) evaluating the impact of GPT-4 based tutors on student
+learning.1 Specifically, focusing on mathematics, we study the impact of GPT-4 based tutors
+on in-class study sessions designed to help students review material previously covered in the
+course. Each study session proceeds in two phases. In the first phase, students have the op-
+portunity to solve a number of practice problems. In this phase, students are given access to
+standard resources (their course notes and the course textbook), as well as additional generative
+AI resources determined based on a randomly assigned arm; the arms are: (i) access to a chat
+interface based on GPT-4, similar to ChatGPT (called GPT Base), (ii) access to a specialized
+chat interface built on GPT-4 using prompt engineering best practices and teacher input (called
+GPT Tutor),2 and (iii) no access to generative AI resources. In the second phase, students must
+complete an exam on their own without access to any resources.</p>
+<p>Our main results are two-fold. First, students in the GPT Tutor (resp., GPT Base) arm per-
+form 127% (resp., 48%) better on the practice problems compared to students in the control
+arm. This finding is consistent with prior work on the benefits of ChatGPT in improving human
+abilities on a variety of tasks. Second, on the exam, students in the GPT Base arm perform
+statistically significantly worse than students in the control arm by 17%; this negative effect
+is essentially eradicated in the GPT Tutor arm, though we still do not observe a positive ef-
+fect. These results suggest that while access to generative AI can improve performance, it can
+substantially inhibit learning. An analysis of student interactions shows that students often use
+GPT Base as a “crutch” by asking for and copying solutions (although they do not perceive any
+reduction in their learning or subsequent performance as a consequence of this behavior), but
+they use GPT Tutor in more substantive ways like asking for help or independently attempting
+answers. Our results have significant implications for tools based on generative AI—while such tools have the potential to improve human performance, they must be deployed with appropriate
+guardrails when learning is important.</p>
+<h2 id="2-experimental-design">2. experimental design<a hidden class="anchor" aria-hidden="true" href="#2-experimental-design">#</a></h2>
+<h2 id="3-main-results">3. main results<a hidden class="anchor" aria-hidden="true" href="#3-main-results">#</a></h2>
 
 
   </div>

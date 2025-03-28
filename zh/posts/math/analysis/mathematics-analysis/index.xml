@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mathematics analysis on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/math/analysis/mathematics-analysis/</link>
+    <description>Recent content in mathematics analysis on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/posts/math/analysis/mathematics-analysis/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
